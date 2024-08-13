@@ -15,7 +15,7 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66ba53019710450018a21837/images/FBPPTrans.png?v=2024-08-12T18:24:38.389Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Components.NavMenu>
+		<Components.NavMenu background="#888888">
 			<Override slot="link1" href="/products" />
 			<Override slot="link2" href="/services" />
 			<Override slot="link3" href="/contact-and-about-us" />
