@@ -62,9 +62,11 @@ export default (() => {
 				</Link>
 			</Box>
 		</Box>
-		<Box min-width="100px" min-height="100px" />
-		<Box min-width="100px" min-height="100px">
-			<Components.QuarklycommunityKitCarousel />
+		<Box min-width="100px" min-height="100px" height="800px">
+			<Components.QuarklycommunityKitCarousel slidesProp="2" height="800px">
+				<Override slot="Slide Image" height="800px" />
+				<Override slot="Slide" height="800px" />
+			</Components.QuarklycommunityKitCarousel>
 		</Box>
 		<Box min-width="100px" min-height="100px" />
 		<Box min-width="100px" min-height="100px" width="100%">
