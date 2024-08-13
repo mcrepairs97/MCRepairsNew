@@ -57,7 +57,7 @@ export default (() => {
 				flex-direction="row"
 				justify-content="center"
 			>
-				<Link href="#" color="#000000" text-align="center" font="bold 24px --fontFamily-googleGabarito">
+				<Link href="#preowned" color="#000000" text-align="center" font="bold 24px --fontFamily-googleGabarito">
 					PREOWNED PC'S
 				</Link>
 			</Box>
@@ -69,7 +69,7 @@ export default (() => {
 			</Components.QuarklycommunityKitCarousel>
 		</Box>
 		<Box min-width="100px" min-height="100px" />
-		<Box min-width="100px" min-height="100px" width="100%">
+		<Box min-width="100px" min-height="100px" width="100%" id="preowned">
 			<Image
 				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/prebuildBanner.jpg?v=2024-08-13T12:18:27.236Z"
 				display="block"
