@@ -102,7 +102,7 @@ export default (() => {
 				justify-content="center"
 				padding="0px 100px 0px 0px"
 			>
-				<LinkBox href="intel">
+				<LinkBox href="#intel">
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11:50:04.467Z"
 						display="block"
@@ -138,7 +138,7 @@ export default (() => {
 				justify-content="center"
 				padding="0px 0px 0px 100px"
 			>
-				<LinkBox href="amd">
+				<LinkBox href="#amd">
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11:49:52.656Z"
 						display="block"
@@ -153,7 +153,7 @@ export default (() => {
 			</Box>
 		</Box>
 		<Box min-width="100px" min-height="100px" />
-		<Box min-width="100px" min-height="100px">
+		<Box min-width="100px" min-height="100px" id="intel">
 			<Image
 				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21:25:09.959Z"
 				display="block"
@@ -385,7 +385,7 @@ export default (() => {
 		</Section>
 		<Box min-width="100px" min-height="100px" />
 		<Box min-width="100px" min-height="100px" />
-		<Box min-width="100px" min-height="100px">
+		<Box min-width="100px" min-height="100px" id="amd">
 			<Image
 				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21:32:03.090Z"
 				display="block"
