@@ -62,10 +62,16 @@ export default (() => {
 				</Link>
 			</Box>
 		</Box>
-		<Box min-width="100px" min-height="100px" height="800px">
-			<Components.QuarklycommunityKitCarousel slidesProp="2" height="800px">
-				<Override slot="Slide Image" height="800px" />
+		<Box min-height="100px" height="800px" min-width="100px">
+			<Components.QuarklycommunityKitCarousel slidesProp="3" height="800px" autoPlayIntervalProp="5000" autoPlay>
+				<Override slot="Slide Image" height="800px" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/dsc06994_final-100840396-orig.jpg?v=2024-08-13T21:15:42.284Z" />
 				<Override slot="Slide" height="800px" />
+				<Override slot="Slide Content" overflow-x="visible" overflow-y="visible" display="none" />
+				<Override slot="Slide Image 2" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/l-intro-1721314901.jpg?v=2024-08-13T21:11:09.393Z" />
+				<Override slot="Slide Image 1" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/7ME636bQNGEGGrg5qEtWrK.jpg?v=2024-08-13T21:13:33.431Z" />
+				<Override slot="Slide Image 3" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/dsc06994_final-100840396-orig.jpg?v=2024-08-13T21:15:42.284Z" />
+				<Override slot="Arrows" display="none" />
+				<Override slot="Points" display="none" />
 			</Components.QuarklycommunityKitCarousel>
 		</Box>
 		<Box min-width="100px" min-height="100px" />
@@ -94,9 +100,9 @@ export default (() => {
 				display="flex"
 				flex-direction="row"
 				justify-content="center"
-				padding="0px 150px 0px 0px"
+				padding="0px 100px 0px 0px"
 			>
-				<LinkBox>
+				<LinkBox href="intel">
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11:50:04.467Z"
 						display="block"
@@ -119,13 +125,9 @@ export default (() => {
 				flex-direction="row"
 				justify-content="center"
 			>
-				<Image
-					src="https://uploads.quarkly.io/66ba53019710450018a21837/images/bar.jpg?v=2024-08-13T11:57:04.979Z"
-					display="block"
-					width="75px"
-					srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/bar.jpg?v=2024-08-13T11%3A57%3A04.979Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/bar.jpg?v=2024-08-13T11%3A57%3A04.979Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/bar.jpg?v=2024-08-13T11%3A57%3A04.979Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/bar.jpg?v=2024-08-13T11%3A57%3A04.979Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/bar.jpg?v=2024-08-13T11%3A57%3A04.979Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/bar.jpg?v=2024-08-13T11%3A57%3A04.979Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/bar.jpg?v=2024-08-13T11%3A57%3A04.979Z&quality=85&w=3200 3200w"
-					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
-				/>
+				<Text margin="0px 0px 0px 0px" font="bold 50px/100% --fontFamily-googleGabarito">
+					&lt;SORT BY&gt;
+				</Text>
 			</Box>
 			<Box
 				min-width="100px"
@@ -134,9 +136,9 @@ export default (() => {
 				display="flex"
 				flex-direction="row"
 				justify-content="center"
-				padding="0px 0px 0px 150px"
+				padding="0px 0px 0px 100px"
 			>
-				<LinkBox>
+				<LinkBox href="amd">
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11:49:52.656Z"
 						display="block"
@@ -150,6 +152,469 @@ export default (() => {
 				</LinkBox>
 			</Box>
 		</Box>
+		<Box min-width="100px" min-height="100px" />
+		<Box min-width="100px" min-height="100px">
+			<Image
+				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21:25:09.959Z"
+				display="block"
+				width="100%"
+				id="intel"
+				srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+			/>
+		</Box>
+		<Box min-width="100px" min-height="100px" />
+		<Section padding="80px 0 80px 0">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				display="flex"
+				align-items="center"
+				flex-direction="column"
+				justify-content="center"
+				margin="0px 0px 64px 0px"
+				width="100%"
+				sm-margin="0px 0px 30px 0px"
+				padding="0px 200px 0px 200px"
+				lg-padding="0px 0px 0px 0px"
+			>
+				<Text margin="0px 0px 16px 0px" font="--headline1" text-align="center" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
+					Price
+				</Text>
+				<Text margin="0px 0px 0px 0px" color="--darkL2" text-align="center" font="--lead">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+				</Text>
+			</Box>
+			<Box
+				display="grid"
+				flex-wrap="wrap"
+				width="100%"
+				align-items="center"
+				justify-content="center"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="30px"
+				md-grid-template-columns="1fr"
+			>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="1px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						width="100%"
+						height="278px"
+						object-fit="cover"
+						srcSet="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="--headline3">
+							Company
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							$ 199 / month
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						</Text>
+						<Link
+							href="#"
+							text-decoration-line="initial"
+							color="--dark"
+							font="--lead"
+							padding="12px 24px 12px 24px"
+							border-radius="8px"
+							background="--color-secondary"
+							lg-padding="12px 20px 12px 20px"
+							transition="background-color 0.2s ease-in-out 0s"
+							hover-transition="background-color 0.2s ease-in-out 0s"
+							hover-background="--color-orange"
+						>
+							Select plan
+						</Link>
+					</Box>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="1px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+					position="relative"
+				>
+					<Text
+						margin="0px 0px 0px 0px"
+						font="--base"
+						color="#ffffff"
+						padding="4px 16px 4px 16px"
+						background="--color-green"
+						border-radius="50px"
+						position="absolute"
+						top="24px"
+						right="24px"
+						bottom="auto"
+						left="auto"
+					>
+						Recomended
+					</Text>
+					<Image
+						src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						max-height="278px"
+						object-fit="cover"
+						width="100%"
+						srcSet="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="--headline3">
+							Pro
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							$ 10 / month
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						</Text>
+						<Link
+							href="#"
+							text-decoration-line="initial"
+							color="--dark"
+							font="--lead"
+							padding="12px 24px 12px 24px"
+							border-radius="8px"
+							background="--color-secondary"
+							lg-padding="12px 20px 12px 20px"
+							transition="background-color 0.2s ease-in-out 0s"
+							hover-transition="background-color 0.2s ease-in-out 0s"
+							hover-background="--color-orange"
+						>
+							Select plan
+						</Link>
+					</Box>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="1px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						max-height="278px"
+						object-fit="cover"
+						width="100%"
+						srcSet="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="--headline3">
+							Freelance
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							Free
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						</Text>
+						<Link
+							href="#"
+							text-decoration-line="initial"
+							color="--dark"
+							font="--lead"
+							padding="12px 24px 12px 24px"
+							border-radius="8px"
+							background="--color-secondary"
+							lg-padding="12px 20px 12px 20px"
+							transition="background-color 0.2s ease-in-out 0s"
+							hover-transition="background-color 0.2s ease-in-out 0s"
+							hover-background="--color-orange"
+						>
+							Select plan
+						</Link>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Box min-width="100px" min-height="100px" />
+		<Box min-width="100px" min-height="100px" />
+		<Box min-width="100px" min-height="100px">
+			<Image
+				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21:32:03.090Z"
+				display="block"
+				width="100%"
+				id="amd"
+				srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+			/>
+		</Box>
+		<Box min-width="100px" min-height="100px" />
+		<Section padding="80px 0 80px 0">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				display="flex"
+				align-items="center"
+				flex-direction="column"
+				justify-content="center"
+				margin="0px 0px 64px 0px"
+				width="100%"
+				sm-margin="0px 0px 30px 0px"
+				padding="0px 200px 0px 200px"
+				lg-padding="0px 0px 0px 0px"
+			>
+				<Text margin="0px 0px 16px 0px" font="--headline1" text-align="center" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
+					Price
+				</Text>
+				<Text margin="0px 0px 0px 0px" color="--darkL2" text-align="center" font="--lead">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+				</Text>
+			</Box>
+			<Box
+				display="grid"
+				flex-wrap="wrap"
+				width="100%"
+				align-items="center"
+				justify-content="center"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="30px"
+				md-grid-template-columns="1fr"
+			>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="1px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						width="100%"
+						height="278px"
+						object-fit="cover"
+						srcSet="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="--headline3">
+							Company
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							$ 199 / month
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						</Text>
+						<Link
+							href="#"
+							text-decoration-line="initial"
+							color="--dark"
+							font="--lead"
+							padding="12px 24px 12px 24px"
+							border-radius="8px"
+							background="--color-secondary"
+							lg-padding="12px 20px 12px 20px"
+							transition="background-color 0.2s ease-in-out 0s"
+							hover-transition="background-color 0.2s ease-in-out 0s"
+							hover-background="--color-orange"
+						>
+							Select plan
+						</Link>
+					</Box>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="1px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+					position="relative"
+				>
+					<Text
+						margin="0px 0px 0px 0px"
+						font="--base"
+						color="#ffffff"
+						padding="4px 16px 4px 16px"
+						background="--color-green"
+						border-radius="50px"
+						position="absolute"
+						top="24px"
+						right="24px"
+						bottom="auto"
+						left="auto"
+					>
+						Recomended
+					</Text>
+					<Image
+						src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						max-height="278px"
+						object-fit="cover"
+						width="100%"
+						srcSet="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="--headline3">
+							Pro
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							$ 10 / month
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						</Text>
+						<Link
+							href="#"
+							text-decoration-line="initial"
+							color="--dark"
+							font="--lead"
+							padding="12px 24px 12px 24px"
+							border-radius="8px"
+							background="--color-secondary"
+							lg-padding="12px 20px 12px 20px"
+							transition="background-color 0.2s ease-in-out 0s"
+							hover-transition="background-color 0.2s ease-in-out 0s"
+							hover-background="--color-orange"
+						>
+							Select plan
+						</Link>
+					</Box>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="1px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						max-height="278px"
+						object-fit="cover"
+						width="100%"
+						srcSet="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="--headline3">
+							Freelance
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							Free
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						</Text>
+						<Link
+							href="#"
+							text-decoration-line="initial"
+							color="--dark"
+							font="--lead"
+							padding="12px 24px 12px 24px"
+							border-radius="8px"
+							background="--color-secondary"
+							lg-padding="12px 20px 12px 20px"
+							transition="background-color 0.2s ease-in-out 0s"
+							hover-transition="background-color 0.2s ease-in-out 0s"
+							hover-background="--color-orange"
+						>
+							Select plan
+						</Link>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
 		<Box min-width="100px" min-height="100px" />
 		<Section md-padding="60px 0 30px 0" quarkly-title="Footer-15" padding="90px 0 30px 0" background="#575757">
 			<Box
