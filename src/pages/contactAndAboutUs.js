@@ -200,7 +200,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15">
+		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#575757">
 			<Box
 				min-width="100px"
 				min-height="100px"
@@ -212,24 +212,6 @@ export default (() => {
 				lg-flex-wrap="wrap"
 			>
 				<Box
-					width="25%"
-					padding="0px 50px 0px 0"
-					md-width="90%"
-					sm-margin="40px 0px 0px 0"
-					sm-width="100%"
-					sm-padding="0px 0px 0px 0"
-					margin="0px 0 0px 0px"
-					lg-width="100%"
-					lg-padding="0px 0 0px 0"
-				>
-					<Text margin="0px 0px 20px 0px" font="normal 500 18px/1.5 --fontFamily-sans" letter-spacing="1px">
-						ABOUT US
-					</Text>
-					<Text margin="0px 0px 0 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#5a5d64" lg-max-width="640px">
-						It is the best way to improve your professional skills and become more valued
-					</Text>
-				</Box>
-				<Box
 					min-width="100px"
 					min-height="100px"
 					margin="0px 0 0px 0px"
@@ -239,15 +221,15 @@ export default (() => {
 					md-width="45%"
 					sm-width="100%"
 				>
-					<Text margin="0px 0px 20px 0px" font="normal 500 18px/1.5 --fontFamily-sans" letter-spacing="1px">
+					<Text margin="0px 0px 20px 0px" font="normal 500 18px/1.5 --fontFamily-sans" letter-spacing="1px" color="#ffffff">
 						CONTACT INFO
 					</Text>
-					<Text margin="0px 0px 5px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#5a5d64">
+					<Text margin="0px 0px 5px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
 						Phone
 					</Text>
 					<Link
 						href="tel:+9877654321223"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
 						display="inline-block"
@@ -256,12 +238,12 @@ export default (() => {
 					>
 						+987 (765) 432 12 23
 					</Link>
-					<Text margin="0px 0px 5px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#5a5d64">
+					<Text margin="0px 0px 5px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
 						E-mail
 					</Text>
 					<Link
 						href="mailto:info@yourdomain.com"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
 						display="inline-block"
@@ -280,17 +262,17 @@ export default (() => {
 					md-width="45%"
 					sm-width="100%"
 				>
-					<Text margin="0px 0px 20px 0px" font="normal 500 18px/1.5 --fontFamily-sans" letter-spacing="1px">
+					<Text margin="0px 0px 20px 0px" font="normal 500 18px/1.5 --fontFamily-sans" letter-spacing="1px" color="#ffffff">
 						ADDRESS
 					</Text>
-					<Text margin="0px 0px 15px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#5a5d64">
+					<Text margin="0px 0px 15px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
 						4998 Hanover Street,{" "}
 						<br />
 						New York, 10011
 					</Text>
 					<Link
 						href="tel:+9877654321223"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
 						display="block"
@@ -312,12 +294,12 @@ export default (() => {
 					flex-direction="column"
 					align-items="flex-start"
 				>
-					<Text margin="0px 0px 20px 0px" font="normal 500 18px/1.5 --fontFamily-sans" letter-spacing="1px">
+					<Text margin="0px 0px 20px 0px" font="normal 500 18px/1.5 --fontFamily-sans" letter-spacing="1px" color="#ffffff">
 						SOCIAL MEDIA
 					</Text>
 					<Link
 						href="#"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						margin="0px 0px 5px 0px"
 						display="inline-block"
@@ -328,7 +310,7 @@ export default (() => {
 					</Link>
 					<Link
 						href="#"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						margin="0px 0px 5px 0px"
 						display="inline-block"
@@ -339,7 +321,7 @@ export default (() => {
 					</Link>
 					<Link
 						href="#"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						margin="0px 0px 5px 0px"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
@@ -388,7 +370,7 @@ export default (() => {
 						href="#"
 						font="normal 400 16px/24px --fontFamily-googleRoboto"
 						text-decoration-line="initial"
-						color="#5a5d64"
+						color="#ffffff"
 						hover-color="--primary"
 						sm-padding="0 0 15px 0"
 					>
@@ -401,7 +383,7 @@ export default (() => {
 						lg-margin="0px 6px 0px 0px"
 						href="#"
 						text-decoration-line="initial"
-						color="#5a5d64"
+						color="#ffffff"
 						font="normal 400 16px/24px --fontFamily-googleRoboto"
 						display="flex"
 					>

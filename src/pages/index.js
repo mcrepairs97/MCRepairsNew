@@ -187,7 +187,7 @@ export default (() => {
 			md-padding="60px 0 30px 0"
 			quarkly-title="Footer-15"
 			font="50px sans-serif"
-			background="#ffffff"
+			background="#575757"
 		>
 			<Box
 				min-width="100px"
@@ -209,15 +209,15 @@ export default (() => {
 					md-width="45%"
 					sm-width="100%"
 				>
-					<Text margin="0px 0px 20px 0px" font="normal bold 18px/1.5 --fontFamily-googleGabarito" letter-spacing="1px">
+					<Text margin="0px 0px 20px 0px" font="normal bold 18px/1.5 --fontFamily-googleGabarito" letter-spacing="1px" color="#ffffff">
 						CONTACT INFO
 					</Text>
-					<Text margin="0px 0px 5px 0px" font="normal 600 16px/1.5 --fontFamily-googleGabarito" color="#5a5d64">
+					<Text margin="0px 0px 5px 0px" font="normal 600 16px/1.5 --fontFamily-googleGabarito" color="#ffffff">
 						Phone
 					</Text>
 					<Link
 						href="tel:+27783488838"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
 						display="inline-block"
@@ -226,12 +226,12 @@ export default (() => {
 					>
 						+27 78 348 8838
 					</Link>
-					<Text margin="0px 0px 5px 0px" font="normal bold 16px/1.5 --fontFamily-sansTrebuchet" color="#5a5d64">
+					<Text margin="0px 0px 5px 0px" font="normal bold 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
 						E-mail
 					</Text>
 					<Link
 						href="mailto:m.computerrepairs.kzn@gmail.com"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
 						display="inline-block"
@@ -250,17 +250,17 @@ export default (() => {
 					md-width="45%"
 					sm-width="100%"
 				>
-					<Text margin="0px 0px 20px 0px" font="normal bold 18px/1.5 --fontFamily-googleGabarito" letter-spacing="1px">
+					<Text margin="0px 0px 20px 0px" font="normal bold 18px/1.5 --fontFamily-googleGabarito" letter-spacing="1px" color="#ffffff">
 						ADDRESS
 					</Text>
-					<Text margin="0px 0px 15px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#5a5d64">
+					<Text margin="0px 0px 15px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
 						South Suburbs, Bluff
 						<br />
 						Durban, KZN
 					</Text>
 					<Link
 						href="tel:+9877654321223"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
 						display="block"
@@ -294,12 +294,12 @@ export default (() => {
 					flex-direction="column"
 					align-items="flex-start"
 				>
-					<Text margin="0px 0px 20px 0px" font="normal bold 18px/1.5 --fontFamily-googleGabarito" letter-spacing="1px">
+					<Text margin="0px 0px 20px 0px" font="normal bold 18px/1.5 --fontFamily-googleGabarito" letter-spacing="1px" color="#ffffff">
 						SOCIAL MEDIA
 					</Text>
 					<Link
 						href="#"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						margin="0px 0px 5px 0px"
 						display="inline-block"
@@ -310,7 +310,7 @@ export default (() => {
 					</Link>
 					<Link
 						href="#"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						margin="0px 0px 5px 0px"
 						display="inline-block"
@@ -321,7 +321,7 @@ export default (() => {
 					</Link>
 					<Link
 						href="#"
-						color="#5a5d64"
+						color="#ffffff"
 						text-decoration-line="initial"
 						margin="0px 0px 5px 0px"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
@@ -341,7 +341,7 @@ export default (() => {
 			>
 				<Text
 					font="--base"
-					color="#000000"
+					color="#ffffff"
 					md-margin="0px 0px 0 0px"
 					width="30%"
 					md-width="100%"
