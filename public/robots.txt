@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vocal-valkyrie-606e38.netlify.app/sitemap-index.xml
+Sitemap: https://www.mcrepairs.co.za/sitemap-index.xml
