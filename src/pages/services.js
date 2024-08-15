@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Text, Section } from "@quarkly/widgets";
+import { Theme, Link, Box, Image, Text, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -36,7 +36,7 @@ export default (() => {
 				flex-direction="row"
 				justify-content="center"
 			>
-				<Link href="#" color="#000000" font="bold 24px --fontFamily-googleGabarito">
+				<Link href="#repairs" color="#000000" font="bold 24px --fontFamily-googleGabarito">
 					REPAIRS
 				</Link>
 			</Box>
@@ -49,11 +49,116 @@ export default (() => {
 				flex-direction="row"
 				justify-content="center"
 			>
-				<Link href="#" color="#000000" font="bold 24px --fontFamily-googleGabarito">
+				<Link href="#networking" color="#000000" font="bold 24px --fontFamily-googleGabarito">
 					NETWORKING
 				</Link>
 			</Box>
 		</Box>
+		<Box min-width="100px" min-height="100px" id="repairs" />
+		<Section padding="80px 0 90px 0" quarkly-title="Product-1">
+			<Override slot="SectionContent" align-items="center" />
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-template-rows="auto"
+				grid-gap="0 35px"
+				md-grid-template-columns="1fr"
+				md-grid-gap="40px 0"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+					border-radius={0}
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09:32:08.259Z"
+						display="block"
+						max-width="100%"
+						margin="0px 0px 25px 0px"
+						border-radius="250px"
+						border-width="5px"
+						border-style="solid"
+						width="500px"
+						height="400px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+					border-width="5px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09:32:13.654Z"
+						display="block"
+						max-width="100%"
+						margin="0px 0px 25px 0px"
+						border-radius="250px"
+						border-width="5px"
+						border-style="solid"
+						width="500px"
+						height="400px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text margin="0px 0px 15px 0px" font="normal bold 40px/1 --fontFamily-googleGabarito" text-align="center">
+						LAPTOP REPAIRS & SOLUTIONS
+					</Text>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09:32:13.646Z"
+						display="block"
+						max-width="100%"
+						margin="0px 0px 25px 0px"
+						border-style="solid"
+						border-width="5px"
+						border-radius="250px"
+						width="500px"
+						height="400px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+				</Box>
+			</Box>
+		</Section>
+		<Box
+			min-width="100px"
+			min-height="100px"
+			align-items="center"
+			display="flex"
+			flex-direction="row"
+			justify-content="center"
+		>
+			<Image
+				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10:58:07.030Z"
+				display="block"
+				width="75%"
+				border-width="5px"
+				border-style="solid"
+				box-shadow="10px 10px 0 0 rgba(97, 97, 97, 0.52)"
+				border-radius="15px"
+				srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+			/>
+		</Box>
+		<Box min-width="100px" min-height="100px" />
+		<Box min-width="100px" min-height="100px" id="networking" />
 		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#575757">
 			<Box
 				min-width="100px"

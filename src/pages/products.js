@@ -152,8 +152,8 @@ export default (() => {
 				</LinkBox>
 			</Box>
 		</Box>
-		<Box min-width="100px" min-height="100px" />
-		<Box min-width="100px" min-height="100px" id="intel">
+		<Box min-width="100px" min-height="100px" id="intel" />
+		<Box min-width="100px" min-height="100px" border-width="5px" border-style="solid">
 			<Image
 				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21:25:09.959Z"
 				display="block"
@@ -384,8 +384,8 @@ export default (() => {
 			</Box>
 		</Section>
 		<Box min-width="100px" min-height="100px" />
-		<Box min-width="100px" min-height="100px" />
-		<Box min-width="100px" min-height="100px" id="amd">
+		<Box min-width="100px" min-height="100px" id="amd" />
+		<Box min-width="100px" min-height="100px" border-width="5px" border-style="solid">
 			<Image
 				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21:32:03.090Z"
 				display="block"
