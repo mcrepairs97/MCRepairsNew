@@ -58,18 +58,18 @@ export default (() => {
 				justify-content="center"
 			>
 				<Link href="#preowned" color="#000000" text-align="center" font="bold 24px --fontFamily-googleGabarito">
-					PREOWNED PC'S
+					PREOWNED SYSTEMS
 				</Link>
 			</Box>
 		</Box>
 		<Box min-height="100px" height="800px" min-width="100px">
 			<Components.QuarklycommunityKitCarousel slidesProp="3" height="800px" autoPlayIntervalProp="5000" autoPlay>
-				<Override slot="Slide Image" height="800px" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/dsc06994_final-100840396-orig.jpg?v=2024-08-13T21:15:42.284Z" />
+				<Override slot="Slide Image" height="800px" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/desktops.png?v=2024-08-15T16:40:07.605Z" />
 				<Override slot="Slide" height="800px" />
 				<Override slot="Slide Content" overflow-x="visible" overflow-y="visible" display="none" />
 				<Override slot="Slide Image 2" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/l-intro-1721314901.jpg?v=2024-08-13T21:11:09.393Z" />
-				<Override slot="Slide Image 1" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/7ME636bQNGEGGrg5qEtWrK.jpg?v=2024-08-13T21:13:33.431Z" />
-				<Override slot="Slide Image 3" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/dsc06994_final-100840396-orig.jpg?v=2024-08-13T21:15:42.284Z" />
+				<Override slot="Slide Image 1" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/laptops.png?v=2024-08-15T16:39:08.354Z" />
+				<Override slot="Slide Image 3" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/desktops.png?v=2024-08-15T16:40:07.605Z" />
 				<Override slot="Arrows" display="none" />
 				<Override slot="Points" display="none" />
 			</Components.QuarklycommunityKitCarousel>
@@ -616,7 +616,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Box min-width="100px" min-height="100px" />
-		<Section md-padding="60px 0 30px 0" quarkly-title="Footer-15" padding="90px 0 30px 0" background="#575757">
+		<Section md-padding="60px 0 30px 0" quarkly-title="Footer-15" padding="90px 0 30px 0" background="#292929">
 			<Box
 				min-width="100px"
 				min-height="100px"
@@ -652,7 +652,9 @@ export default (() => {
 						margin="0px 0px 15px 0px"
 						hover-color="--primary"
 					>
-						+987 (765) 432 12 23
+						+2778 348 8834
+						<br />
+						{"\n\n"}
 					</Link>
 					<Text margin="0px 0px 5px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
 						E-mail
@@ -666,7 +668,7 @@ export default (() => {
 						margin="0px 0px 15px 0px"
 						hover-color="--primary"
 					>
-						info@yourdomain.com
+						m.computerrepairs.kzn@gmail.com
 					</Link>
 				</Box>
 				<Box
@@ -682,9 +684,9 @@ export default (() => {
 						ADDRESS
 					</Text>
 					<Text margin="0px 0px 15px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
-						4998 Hanover Street,{" "}
+						26 Ivernia Road, Bluff
 						<br />
-						New York, 10011
+						Durban, KZN{"\n\n"}
 					</Text>
 					<Link
 						href="tel:+9877654321223"
@@ -694,9 +696,21 @@ export default (() => {
 						display="block"
 						margin="0px 0px 15px 0px"
 					>
-						Mon to Fri (10 am – 6 pm)
+						9 AM to 5 PM - Monday
 						<br />
-						Sat (12 am – 6 pm){" "}
+						{"\n\n"}9 AM to 5 PM - Tuesday
+						<br />
+						{"\n"}9 AM to 5 PM - Wednesday
+						<br />
+						{"\n"}9 AM to 5 PM - Thursday
+						<br />
+						{"\n\n"}9 AM to 5 PM - Friday
+						<br />
+						{"\n\n"}9 AM to 3 PM - Saturday
+						<br />
+						{"\n "}Closed - Sunday
+						<br />
+						{"\n\n\n\n"}
 					</Link>
 				</Box>
 				<Box
@@ -763,7 +777,7 @@ export default (() => {
 					md-width="100%"
 					margin="0 0px 0 0px"
 				>
-					© 2023 Company, Inc.{" "}
+					Copyright @ 2024 Martin's Computer Repairs{"\n\n"}
 				</Text>
 				<Box
 					align-items="flex-start"

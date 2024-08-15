@@ -187,7 +187,7 @@ export default (() => {
 			md-padding="60px 0 30px 0"
 			quarkly-title="Footer-15"
 			font="50px sans-serif"
-			background="#575757"
+			background="#292929"
 		>
 			<Box
 				min-width="100px"
@@ -224,7 +224,9 @@ export default (() => {
 						margin="0px 0px 15px 0px"
 						hover-color="--primary"
 					>
-						+27 78 348 8838
+						+2778 348 8834
+						<br />
+						{"\n\n"}
 					</Link>
 					<Text margin="0px 0px 5px 0px" font="normal bold 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
 						E-mail
@@ -254,7 +256,7 @@ export default (() => {
 						ADDRESS
 					</Text>
 					<Text margin="0px 0px 15px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
-						South Suburbs, Bluff
+						26 Ivernia Road, Bluff
 						<br />
 						Durban, KZN
 					</Text>
@@ -266,19 +268,19 @@ export default (() => {
 						display="block"
 						margin="0px 0px 15px 0px"
 					>
-						Monday - 9 AM to 5 PM
+						9 AM to 5 PM - Monday
 						<br />
-						{"\n\n"}Tuesday - 9 AM to 5 PM
+						{"\n\n"}9 AM to 5 PM - Tuesday
 						<br />
-						{"\n"}Wednesday - 9 AM to 5 PM
+						{"\n"}9 AM to 5 PM - Wednesday
 						<br />
-						{"\n"}Thursday - 9 AM to 5 PM
+						{"\n"}9 AM to 5 PM - Thursday
 						<br />
-						{"\n\n"}Friday - 9 AM to 5 PM
+						{"\n\n"}9 AM to 5 PM - Friday
 						<br />
-						{"\n\n"}Saturday - 9 AM to 3 PM
+						{"\n\n"}9 AM to 3 PM - Saturday
 						<br />
-						{"\n"}Sunday - Closed
+						{"\n "}Closed - Sunday
 						<br />
 						{"\n\n"}
 					</Link>
@@ -368,7 +370,7 @@ export default (() => {
 						lg-margin="0px 6px 0px 0px"
 						display="flex"
 						href="#"
-						font="normal 400 16px/24px --fontFamily-googleRoboto"
+						font="normal 400 16px/0 --fontFamily-googleRoboto"
 						text-decoration-line="initial"
 						color="#5a5d64"
 						hover-color="--primary"

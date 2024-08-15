@@ -53,7 +53,9 @@ export default (() => {
 								Visit us
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3">
-								4998 Hanover Street, New York, 10011
+								26 Ivernia Road, Bluff
+								<br />
+								Durban, KZN
 							</Text>
 						</Box>
 						<Box
@@ -76,7 +78,7 @@ export default (() => {
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3">
 								<Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--light">
-									hello@company.com
+									m.computerrepairs.kzn@gmail.com
 								</Link>
 							</Text>
 						</Box>
@@ -93,9 +95,7 @@ export default (() => {
 								Call us
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3">
-								+1 (234) 567-89-00
-								<br />
-								+1 (234) 567-89-00
+								+2778 348 8838
 							</Text>
 						</Box>
 						<Box
@@ -200,7 +200,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#575757">
+		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#292929">
 			<Box
 				min-width="100px"
 				min-height="100px"
@@ -236,7 +236,7 @@ export default (() => {
 						margin="0px 0px 15px 0px"
 						hover-color="--primary"
 					>
-						+987 (765) 432 12 23
+						+2778 348 8834
 					</Link>
 					<Text margin="0px 0px 5px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
 						E-mail
@@ -250,7 +250,7 @@ export default (() => {
 						margin="0px 0px 15px 0px"
 						hover-color="--primary"
 					>
-						info@yourdomain.com
+						m.computerrepairs.kzn@gmail.com
 					</Link>
 				</Box>
 				<Box
@@ -266,9 +266,9 @@ export default (() => {
 						ADDRESS
 					</Text>
 					<Text margin="0px 0px 15px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
-						4998 Hanover Street,{" "}
+						26 Ivernia Road, Bluff
 						<br />
-						New York, 10011
+						Durban, KZN{"\n\n"}
 					</Text>
 					<Link
 						href="tel:+9877654321223"
@@ -278,9 +278,21 @@ export default (() => {
 						display="block"
 						margin="0px 0px 15px 0px"
 					>
-						Mon to Fri (10 am – 6 pm)
+						9 AM to 5 PM - Monday
 						<br />
-						Sat (12 am – 6 pm){" "}
+						{"\n\n"}9 AM to 5 PM - Tuesday
+						<br />
+						{"\n"}9 AM to 5 PM - Wednesday
+						<br />
+						{"\n"}9 AM to 5 PM - Thursday
+						<br />
+						{"\n\n"}9 AM to 5 PM - Friday
+						<br />
+						{"\n\n"}9 AM to 3 PM - Saturday
+						<br />
+						{"\n "}Closed - Sunday
+						<br />
+						{"\n\n\n\n"}
 					</Link>
 				</Box>
 				<Box
@@ -341,13 +353,13 @@ export default (() => {
 			>
 				<Text
 					font="--base"
-					color="#5a5d64"
+					color="#ffffff"
 					md-margin="0px 0px 0 0px"
 					width="30%"
 					md-width="100%"
 					margin="0 0px 0 0px"
 				>
-					© 2023 Company, Inc.{" "}
+					Copyright @ 2024 Martin's Computer Repairs{"\n\n"}
 				</Text>
 				<Box
 					align-items="flex-start"

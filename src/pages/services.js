@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Image, Text, Section } from "@quarkly/widgets";
+import { Theme, Link, Box, Text, Image, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -49,13 +49,40 @@ export default (() => {
 				flex-direction="row"
 				justify-content="center"
 			>
+				<Link href="#services" color="#000000" font="bold 24px --fontFamily-googleGabarito">
+					SERVICES
+				</Link>
+			</Box>
+			<Box min-width="100px" min-height="100px" />
+			<Box
+				min-width="100px"
+				min-height="100px"
+				align-items="center"
+				display="flex"
+				flex-direction="row"
+				justify-content="center"
+			>
 				<Link href="#networking" color="#000000" font="bold 24px --fontFamily-googleGabarito">
 					NETWORKING
 				</Link>
 			</Box>
 		</Box>
-		<Box min-width="100px" min-height="100px" id="repairs" />
-		<Section padding="80px 0 90px 0" quarkly-title="Product-1">
+		<Box
+			min-width="100px"
+			min-height="100px"
+			align-items="center"
+			display="flex"
+			flex-direction="row"
+			justify-content="center"
+			id="repairs"
+		>
+			<Text margin="0px 0px 0px 0px" font="38px --fontFamily-googleGabarito" text-align="center">
+				DESKTOP & LAPTOP
+				<br />
+				REPAIRS
+			</Text>
+		</Box>
+		<Section padding="40px 0 40px 0" quarkly-title="Product-1">
 			<Override slot="SectionContent" align-items="center" />
 			<Box
 				min-width="100px"
@@ -110,9 +137,6 @@ export default (() => {
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
-					<Text margin="0px 0px 15px 0px" font="normal bold 40px/1 --fontFamily-googleGabarito" text-align="center">
-						LAPTOP REPAIRS & SOLUTIONS
-					</Text>
 				</Box>
 				<Box
 					min-width="100px"
@@ -137,6 +161,287 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Section padding="60px 0 40px 0" quarkly-title="Product-1">
+			<Override slot="SectionContent" align-items="center" />
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="grid"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-template-rows="auto"
+				grid-gap="0 35px"
+				md-grid-template-columns="1fr"
+				md-grid-gap="40px 0"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+					border-radius={0}
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09:32:08.259Z"
+						display="block"
+						max-width="100%"
+						margin="0px 0px 25px 0px"
+						border-radius="250px"
+						border-width="5px"
+						border-style="solid"
+						width="500px"
+						height="400px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+					border-width="5px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09:32:13.654Z"
+						display="block"
+						max-width="100%"
+						margin="0px 0px 25px 0px"
+						border-radius="250px"
+						border-width="5px"
+						border-style="solid"
+						width="500px"
+						height="400px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09:32:13.646Z"
+						display="block"
+						max-width="100%"
+						margin="0px 0px 25px 0px"
+						border-style="solid"
+						border-width="5px"
+						border-radius="250px"
+						width="500px"
+						height="400px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+				</Box>
+			</Box>
+		</Section>
+		<Box min-width="100px" min-height="100px" id="services" />
+		<Section padding="80px 0 80px 0">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				display="grid"
+				flex-wrap="wrap"
+				width="100%"
+				align-items="center"
+				justify-content="center"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="30px"
+				md-grid-template-columns="1fr"
+			>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="1px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						width="100%"
+						height="278px"
+						object-fit="cover"
+						srcSet="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="--headline3">
+							Company
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							$ 199 / month
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						</Text>
+						<Link
+							href="#"
+							text-decoration-line="initial"
+							color="--dark"
+							font="--lead"
+							padding="12px 24px 12px 24px"
+							border-radius="8px"
+							background="--color-secondary"
+							lg-padding="12px 20px 12px 20px"
+							transition="background-color 0.2s ease-in-out 0s"
+							hover-transition="background-color 0.2s ease-in-out 0s"
+							hover-background="--color-orange"
+						>
+							Select plan
+						</Link>
+					</Box>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="1px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+					position="relative"
+				>
+					<Text
+						margin="0px 0px 0px 0px"
+						font="--base"
+						color="#ffffff"
+						padding="4px 16px 4px 16px"
+						background="--color-green"
+						border-radius="50px"
+						position="absolute"
+						top="24px"
+						right="24px"
+						bottom="auto"
+						left="auto"
+					>
+						Recomended
+					</Text>
+					<Image
+						src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						max-height="278px"
+						object-fit="cover"
+						width="100%"
+						srcSet="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="--headline3">
+							Pro
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							$ 10 / month
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						</Text>
+						<Link
+							href="#"
+							text-decoration-line="initial"
+							color="--dark"
+							font="--lead"
+							padding="12px 24px 12px 24px"
+							border-radius="8px"
+							background="--color-secondary"
+							lg-padding="12px 20px 12px 20px"
+							transition="background-color 0.2s ease-in-out 0s"
+							hover-transition="background-color 0.2s ease-in-out 0s"
+							hover-background="--color-orange"
+						>
+							Select plan
+						</Link>
+					</Box>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="1px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						max-height="278px"
+						object-fit="cover"
+						width="100%"
+						srcSet="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="--headline3">
+							Freelance
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							Free
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
+						</Text>
+						<Link
+							href="#"
+							text-decoration-line="initial"
+							color="--dark"
+							font="--lead"
+							padding="12px 24px 12px 24px"
+							border-radius="8px"
+							background="--color-secondary"
+							lg-padding="12px 20px 12px 20px"
+							transition="background-color 0.2s ease-in-out 0s"
+							hover-transition="background-color 0.2s ease-in-out 0s"
+							hover-background="--color-orange"
+						>
+							Select plan
+						</Link>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
 		<Box
 			min-width="100px"
 			min-height="100px"
@@ -157,9 +462,8 @@ export default (() => {
 				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Box>
-		<Box min-width="100px" min-height="100px" />
 		<Box min-width="100px" min-height="100px" id="networking" />
-		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#575757">
+		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#292929">
 			<Box
 				min-width="100px"
 				min-height="100px"
@@ -195,7 +499,9 @@ export default (() => {
 						margin="0px 0px 15px 0px"
 						hover-color="--primary"
 					>
-						+987 (765) 432 12 23
+						+2778 348 8834
+						<br />
+						{"\n\n"}
 					</Link>
 					<Text margin="0px 0px 5px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
 						E-mail
@@ -209,7 +515,7 @@ export default (() => {
 						margin="0px 0px 15px 0px"
 						hover-color="--primary"
 					>
-						info@yourdomain.com
+						m.computerrepairs.kzn@gmail.com
 					</Link>
 				</Box>
 				<Box
@@ -225,9 +531,9 @@ export default (() => {
 						ADDRESS
 					</Text>
 					<Text margin="0px 0px 15px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
-						4998 Hanover Street,{" "}
+						26 Ivernia Road, Bluff
 						<br />
-						New York, 10011
+						Durban, KZN{"\n\n"}
 					</Text>
 					<Link
 						href="tel:+9877654321223"
@@ -237,9 +543,21 @@ export default (() => {
 						display="block"
 						margin="0px 0px 15px 0px"
 					>
-						Mon to Fri (10 am – 6 pm)
+						9 AM to 5 PM - Monday
 						<br />
-						Sat (12 am – 6 pm){" "}
+						{"\n\n"}9 AM to 5 PM - Tuesday
+						<br />
+						{"\n"}9 AM to 5 PM - Wednesday
+						<br />
+						{"\n"}9 AM to 5 PM - Thursday
+						<br />
+						{"\n\n"}9 AM to 5 PM - Friday
+						<br />
+						{"\n\n"}9 AM to 3 PM - Saturday
+						<br />
+						{"\n "}Closed - Sunday
+						<br />
+						{"\n\n\n\n"}
 					</Link>
 				</Box>
 				<Box
@@ -306,7 +624,7 @@ export default (() => {
 					md-width="100%"
 					margin="0 0px 0 0px"
 				>
-					© 2023 Company, Inc.{" "}
+					Copyright @ 2024 Martin's Computer Repairs{"\n\n"}
 				</Text>
 				<Box
 					align-items="flex-start"
