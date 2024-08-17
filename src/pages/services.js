@@ -15,7 +15,7 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66ba53019710450018a21837/images/FBPPTrans.png?v=2024-08-12T18:24:38.389Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Components.NavMenu background="#888888">
+		<Components.NavMenu background="#888888" position="static" top={0}>
 			<Override slot="link1" href="/products" />
 			<Override slot="link2" href="/services" />
 			<Override slot="link3" href="/contact-and-about-us" />
@@ -28,6 +28,11 @@ export default (() => {
 			flex-direction="row"
 			justify-content="center"
 			overflow-x="visible"
+			position="static"
+			right={0}
+			left={0}
+			background="#ffffff"
+			top={0}
 		>
 			<Box
 				min-width="100px"
@@ -105,7 +110,16 @@ export default (() => {
 				</Link>
 			</Box>
 		</Box>
-		<Box min-width="100px" min-height="100px" id="repairs" />
+		<Box
+			min-width="100px"
+			min-height="100px"
+			id="repairs"
+			align-items="center"
+			display="flex"
+			flex-direction="row"
+			box-sizing="border-box"
+			position="static"
+		/>
 		<Box
 			min-width="100px"
 			min-height="100px"
@@ -121,7 +135,7 @@ export default (() => {
 				REPAIRS & SOLUTIONS
 			</Text>
 			<Text margin="0px 0px 0px 0px" font="24px --fontFamily-googleGabarito">
-				Specializing in repairing of laptop moduls shown below
+				Specialize in replacing of laptop moduls shown below
 			</Text>
 		</Box>
 		<Section padding="40px 0 40px 0" quarkly-title="Product-1">
@@ -359,26 +373,423 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Box
-			min-width="100px"
-			min-height="100px"
-			align-items="center"
-			display="flex"
-			flex-direction="row"
-			justify-content="center"
-		>
-			<Image
-				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10:58:07.030Z"
-				display="block"
-				width="75%"
-				border-width="5px"
-				border-style="solid"
-				box-shadow="10px 10px 0 0 rgba(97, 97, 97, 0.52)"
-				border-radius="15px"
-				srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/NewPricelist2024.png?v=2024-08-15T10%3A58%3A07.030Z&quality=85&w=3200 3200w"
-				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
-			/>
-		</Box>
+		<Section padding="80px 0 80px 0">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				display="grid"
+				flex-wrap="wrap"
+				width="100%"
+				align-items="center"
+				justify-content="center"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="30px"
+				md-grid-template-columns="1fr"
+			>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="3px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+					height="624px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/printer.jpg?v=2024-08-17T08:07:32.460Z"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						width="100%"
+						height="278px"
+						object-fit="cover"
+						border-style="solid"
+						border-width="3px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/printer.jpg?v=2024-08-17T08%3A07%3A32.460Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/printer.jpg?v=2024-08-17T08%3A07%3A32.460Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/printer.jpg?v=2024-08-17T08%3A07%3A32.460Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/printer.jpg?v=2024-08-17T08%3A07%3A32.460Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/printer.jpg?v=2024-08-17T08%3A07%3A32.460Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/printer.jpg?v=2024-08-17T08%3A07%3A32.460Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/printer.jpg?v=2024-08-17T08%3A07%3A32.460Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="normal 500 28px/1.2 --fontFamily-googleGabarito">
+							Printer Configuration
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							R 250
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Removal of passwords linked
+							<br />
+							to local windows accounts.
+							<br />
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="3px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+					position="relative"
+					height="624px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Backup.jpg?v=2024-08-17T08:15:46.059Z"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						max-height="278px"
+						object-fit="scale-down"
+						width="100%"
+						height="278px"
+						border-width="3px"
+						border-style="solid"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Backup.jpg?v=2024-08-17T08%3A15%3A46.059Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Backup.jpg?v=2024-08-17T08%3A15%3A46.059Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Backup.jpg?v=2024-08-17T08%3A15%3A46.059Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Backup.jpg?v=2024-08-17T08%3A15%3A46.059Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Backup.jpg?v=2024-08-17T08%3A15%3A46.059Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Backup.jpg?v=2024-08-17T08%3A15%3A46.059Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Backup.jpg?v=2024-08-17T08%3A15%3A46.059Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="normal 500 28px/1.2 --fontFamily-googleGabarito">
+							Data Backup & Restore
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							R 250
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Scan your system for any infected files that can cause the system to act slow or suspicious.
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="3px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+					height="624px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/clone-drive.png?v=2024-08-17T08:15:34.945Z"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						max-height="278px"
+						object-fit="cover"
+						width="100%"
+						height="278px"
+						border-width="3px"
+						border-style="solid"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/clone-drive.png?v=2024-08-17T08%3A15%3A34.945Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/clone-drive.png?v=2024-08-17T08%3A15%3A34.945Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/clone-drive.png?v=2024-08-17T08%3A15%3A34.945Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/clone-drive.png?v=2024-08-17T08%3A15%3A34.945Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/clone-drive.png?v=2024-08-17T08%3A15%3A34.945Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/clone-drive.png?v=2024-08-17T08%3A15%3A34.945Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/clone-drive.png?v=2024-08-17T08%3A15%3A34.945Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="normal 500 28px/1.2 --fontFamily-googleGabarito">
+							SSD/HDD Cloning
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							R 300
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Configurate your email accounts on your system.
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="80px 0 80px 0">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				display="grid"
+				flex-wrap="wrap"
+				width="100%"
+				align-items="center"
+				justify-content="center"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="30px"
+				md-grid-template-columns="1fr"
+			>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="3px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+					height="624px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/router-icon-free-vector.jpg?v=2024-08-17T08:14:53.626Z"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						width="100%"
+						height="278px"
+						object-fit="scale-down"
+						border-style="solid"
+						border-width="3px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/router-icon-free-vector.jpg?v=2024-08-17T08%3A14%3A53.626Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/router-icon-free-vector.jpg?v=2024-08-17T08%3A14%3A53.626Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/router-icon-free-vector.jpg?v=2024-08-17T08%3A14%3A53.626Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/router-icon-free-vector.jpg?v=2024-08-17T08%3A14%3A53.626Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/router-icon-free-vector.jpg?v=2024-08-17T08%3A14%3A53.626Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/router-icon-free-vector.jpg?v=2024-08-17T08%3A14%3A53.626Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/router-icon-free-vector.jpg?v=2024-08-17T08%3A14%3A53.626Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="normal 500 28px/1.2 --fontFamily-googleGabarito">
+							Network Configuration
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							R 250 p/d
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Setup your Wifiaccording to your specifications,
+							<br />
+							having no connectivity issues.
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="3px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+					position="relative"
+					height="624px"
+				>
+					<Image
+						src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						max-height="278px"
+						object-fit="cover"
+						width="100%"
+						height="278px"
+						border-width="3px"
+						border-style="solid"
+						srcSet="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="normal 500 28px/1.2 --fontFamily-googleGabarito">
+							Remote Desktop Assist
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							R 200 p/h
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Have an issue but cant come to the IT tech?
+							<br />
+							We can access your device remotly and help.
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="3px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+					height="624px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/pImg_WindowsUpdate.jpg?v=2024-08-17T08:10:10.053Z"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						max-height="278px"
+						object-fit="fill"
+						width="100%"
+						height="278px"
+						border-width="3px"
+						border-style="solid"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pImg_WindowsUpdate.jpg?v=2024-08-17T08%3A10%3A10.053Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pImg_WindowsUpdate.jpg?v=2024-08-17T08%3A10%3A10.053Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pImg_WindowsUpdate.jpg?v=2024-08-17T08%3A10%3A10.053Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pImg_WindowsUpdate.jpg?v=2024-08-17T08%3A10%3A10.053Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pImg_WindowsUpdate.jpg?v=2024-08-17T08%3A10%3A10.053Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pImg_WindowsUpdate.jpg?v=2024-08-17T08%3A10%3A10.053Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pImg_WindowsUpdate.jpg?v=2024-08-17T08%3A10%3A10.053Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="normal 500 28px/1.2 --fontFamily-googleGabarito">
+							Windows Repair/Update
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							R 300
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Need to repair your Windows OS or does your OS need some updating?
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="80px 0 80px 0">
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				display="grid"
+				flex-wrap="wrap"
+				width="100%"
+				align-items="center"
+				justify-content="center"
+				grid-template-columns="repeat(3, 1fr)"
+				grid-gap="30px"
+				md-grid-template-columns="1fr"
+			>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="3px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+					height="624px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Windows_logo_-_2012.png?v=2024-08-17T08:11:57.419Z"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						width="100%"
+						height="278px"
+						object-fit="scale-down"
+						border-style="solid"
+						border-width="3px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Windows_logo_-_2012.png?v=2024-08-17T08%3A11%3A57.419Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Windows_logo_-_2012.png?v=2024-08-17T08%3A11%3A57.419Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Windows_logo_-_2012.png?v=2024-08-17T08%3A11%3A57.419Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Windows_logo_-_2012.png?v=2024-08-17T08%3A11%3A57.419Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Windows_logo_-_2012.png?v=2024-08-17T08%3A11%3A57.419Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Windows_logo_-_2012.png?v=2024-08-17T08%3A11%3A57.419Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Windows_logo_-_2012.png?v=2024-08-17T08%3A11%3A57.419Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="normal 500 28px/1.2 --fontFamily-googleGabarito">
+							Windows Re-Installtion
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							R 375
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							A clean copy of Windows to install  on your device.
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					width="100%"
+					display="flex"
+					padding="7px 7px 40px 7px"
+					border-radius="24px"
+					align-items="center"
+					flex-direction="column"
+					border-width="3px"
+					border-style="solid"
+					border-color="--color-lightD2"
+					justify-content="center"
+					position="relative"
+					height="624px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/pngtree-report-vector-png-image_5693095.png?v=2024-08-17T08:13:33.216Z"
+						border-radius="16px"
+						margin="0px 0px 32px 0px"
+						max-width="100%"
+						md-width="100%"
+						max-height="278px"
+						object-fit="scale-down"
+						width="100%"
+						height="278px"
+						border-width="3px"
+						border-style="solid"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-report-vector-png-image_5693095.png?v=2024-08-17T08%3A13%3A33.216Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-report-vector-png-image_5693095.png?v=2024-08-17T08%3A13%3A33.216Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-report-vector-png-image_5693095.png?v=2024-08-17T08%3A13%3A33.216Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-report-vector-png-image_5693095.png?v=2024-08-17T08%3A13%3A33.216Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-report-vector-png-image_5693095.png?v=2024-08-17T08%3A13%3A33.216Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-report-vector-png-image_5693095.png?v=2024-08-17T08%3A13%3A33.216Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-report-vector-png-image_5693095.png?v=2024-08-17T08%3A13%3A33.216Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Box
+						display="flex"
+						flex-direction="column"
+						padding="0px 30px 0px 30px"
+						align-items="flex-start"
+						justify-content="flex-start"
+					>
+						<Text margin="0px 0px 8px 0px" font="normal 500 28px/1.2 --fontFamily-googleGabarito">
+							Insurance Report
+						</Text>
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+							R 350
+						</Text>
+						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
+							Do you need an insurance report for a system that go damaged but is insured?
+						</Text>
+					</Box>
+				</Box>
+			</Box>
+		</Section>
 		<Box min-width="100px" min-height="100px" id="networking" />
 		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#292929">
 			<Box
@@ -408,7 +819,7 @@ export default (() => {
 						Phone
 					</Text>
 					<Link
-						href="tel:+9877654321223"
+						href="tel:+27783488838"
 						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
@@ -424,7 +835,7 @@ export default (() => {
 						E-mail
 					</Text>
 					<Link
-						href="mailto:info@yourdomain.com"
+						href="mailto:m.computerrepairs.kzn@gmail.com"
 						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
@@ -453,7 +864,6 @@ export default (() => {
 						Durban, KZN{"\n\n"}
 					</Text>
 					<Link
-						href="tel:+9877654321223"
 						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"

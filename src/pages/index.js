@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Text, Button, Image, Section } from "@quarkly/widgets";
+import { Theme, Link, Box, Text, Button, Image, Hr, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -60,7 +60,7 @@ export default (() => {
 						text-decoration-line="initial"
 						href="/contact-and-about-us"
 					>
-						CALL NOW
+						CONTACT US
 					</Button>
 				</Box>
 				<Box min-width="100px" min-height="100px">
@@ -126,7 +126,17 @@ export default (() => {
 				/>
 			</Box>
 		</Box>
-		<Box min-width="100px" min-height="100px" background="#000000" />
+		<Box
+			min-width="100px"
+			min-height="100px"
+			background="#000000"
+			align-items="center"
+			display="flex"
+			flex-direction="row"
+			justify-content="center"
+		>
+			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" background="#ffffff" />
+		</Box>
 		<Box
 			min-width="100px"
 			min-height="100px"
@@ -261,7 +271,6 @@ export default (() => {
 						Durban, KZN
 					</Text>
 					<Link
-						href="tel:+9877654321223"
 						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"

@@ -29,6 +29,7 @@ export default (() => {
 			align-items="center"
 			justify-content="center"
 			flex-wrap="no-wrap"
+			background="#ffffff"
 		>
 			<Box
 				min-width="100px"
@@ -43,7 +44,12 @@ export default (() => {
 					color="#000000"
 					text-align="center"
 					font="bold 24px --fontFamily-googleGabarito"
-					text-decoration-line="underline line-through"
+					text-decoration-line="underline"
+					padding="10px 10px 10px 10px"
+					background="#bdbdbd"
+					border-width="2px"
+					border-style="solid"
+					border-radius="15px 10px 20px 5px"
 				>
 					UPGRADE KITS
 				</Link>
@@ -57,13 +63,42 @@ export default (() => {
 				flex-direction="row"
 				justify-content="center"
 			>
-				<Link href="#preowned" color="#000000" text-align="center" font="bold 24px --fontFamily-googleGabarito">
+				<Link
+					href="#preowned"
+					color="#000000"
+					text-align="center"
+					font="bold 24px --fontFamily-googleGabarito"
+					background="#24e21a"
+					border-width="2px"
+					border-style="solid"
+					border-radius="15px 10px 20px 5px"
+					padding="10px 10px 10px 10px"
+				>
 					PREOWNED SYSTEMS
 				</Link>
 			</Box>
 		</Box>
-		<Box min-height="100px" height="800px" min-width="100px">
-			<Components.QuarklycommunityKitCarousel slidesProp="3" height="800px" autoPlayIntervalProp="5000" autoPlay>
+		<Box
+			min-height="100px"
+			height="800px"
+			min-width="100px"
+			width="1700px"
+			display="flex"
+			overflow="visible"
+			flex-direction="column"
+			flex-wrap="no-wrap"
+			align-content="stretch"
+			overflow-y="visible"
+			overflow-x="visible"
+			margin="0px 0px 0px 100px"
+		>
+			<Components.QuarklycommunityKitCarousel
+				slidesProp="3"
+				height="800px"
+				autoPlayIntervalProp="5000"
+				autoPlay
+				border-radius="50px"
+			>
 				<Override slot="Slide Image" height="800px" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/desktops.png?v=2024-08-15T16:40:07.605Z" />
 				<Override slot="Slide" height="800px" />
 				<Override slot="Slide Content" overflow-x="visible" overflow-y="visible" display="none" />
@@ -102,16 +137,17 @@ export default (() => {
 				justify-content="center"
 				padding="0px 100px 0px 0px"
 			>
-				<LinkBox href="#intel">
+				<LinkBox href="#intel" width="350px" height="450px">
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11:50:04.467Z"
 						display="block"
 						width="500px"
 						height="500px"
-						border-width="10px"
+						border-width="5px"
 						border-style="solid"
 						border-radius="50px"
 						overflow="visible"
+						object-fit="cover"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -138,14 +174,15 @@ export default (() => {
 				justify-content="center"
 				padding="0px 0px 0px 100px"
 			>
-				<LinkBox href="#amd">
+				<LinkBox href="#amd" width="350px" height="450px">
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11:49:52.656Z"
 						display="block"
 						width="500px"
 						border-radius="50px"
-						border-width="10px"
+						border-width="5px"
 						border-style="solid"
+						object-fit="cover"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -153,12 +190,23 @@ export default (() => {
 			</Box>
 		</Box>
 		<Box min-width="100px" min-height="100px" id="intel" />
-		<Box min-width="100px" min-height="100px" border-width="5px" border-style="solid">
+		<Box
+			min-width="100px"
+			min-height="100px"
+			align-items="center"
+			display="flex"
+			flex-direction="row"
+			justify-content="center"
+			width="100%"
+		>
 			<Image
 				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21:25:09.959Z"
 				display="block"
-				width="100%"
+				width="1700px"
 				id="intel"
+				border-radius="25px"
+				border-width="3px"
+				border-style="solid"
 				srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21%3A25%3A09.959Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
@@ -177,11 +225,8 @@ export default (() => {
 				padding="0px 200px 0px 200px"
 				lg-padding="0px 0px 0px 0px"
 			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" text-align="center" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-					Price
-				</Text>
-				<Text margin="0px 0px 0px 0px" color="--darkL2" text-align="center" font="--lead">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+				<Text margin="0px 0px 16px 0px" font="normal bold 72px/1 --fontFamily-googleGabarito" text-align="center" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
+					DESKTOPS & LAPTOPS
 				</Text>
 			</Box>
 			<Box
@@ -385,12 +430,23 @@ export default (() => {
 		</Section>
 		<Box min-width="100px" min-height="100px" />
 		<Box min-width="100px" min-height="100px" id="amd" />
-		<Box min-width="100px" min-height="100px" border-width="5px" border-style="solid">
+		<Box
+			min-width="100px"
+			min-height="100px"
+			display="flex"
+			align-items="center"
+			justify-content="center"
+			flex-direction="row"
+			width="100%"
+		>
 			<Image
 				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21:32:03.090Z"
 				display="block"
-				width="100%"
-				id="amd"
+				width="1700px"
+				id="intel"
+				border-radius="25px"
+				border-width="3px"
+				border-style="solid"
 				srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21%3A32%3A03.090Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
@@ -644,7 +700,7 @@ export default (() => {
 						Phone
 					</Text>
 					<Link
-						href="tel:+9877654321223"
+						href="tel:+2778 348 8838"
 						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
@@ -660,7 +716,7 @@ export default (() => {
 						E-mail
 					</Text>
 					<Link
-						href="mailto:info@yourdomain.com"
+						href="mailto:m.computerrepairs.kzn@gmail.com"
 						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
@@ -689,7 +745,6 @@ export default (() => {
 						Durban, KZN{"\n\n"}
 					</Text>
 					<Link
-						href="tel:+9877654321223"
 						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"

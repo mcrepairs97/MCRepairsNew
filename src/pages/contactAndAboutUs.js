@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Icon, Text, LinkBox, Input, Button, Section } from "@quarkly/widgets";
+import { Theme, Link, Box, Text, Image, LinkBox, Icon, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, Formspree } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
@@ -22,6 +22,50 @@ export default (() => {
 			<Override slot="link2" href="/services" />
 			<Override slot="link1" href="/products" />
 		</Components.NavMenu>
+		<Box min-width="100px" min-height="100px" />
+		<Box
+			min-width="100px"
+			min-height="100px"
+			align-items="center"
+			display="flex"
+			flex-direction="row"
+			justify-content="center"
+		>
+			<Text margin="0px 0px 0px 0px" font="bold 28px --fontFamily-googleGabarito">
+				WANT TO LEAVE A REVIEW?
+			</Text>
+		</Box>
+		<Box
+			min-width="100px"
+			min-height="100px"
+			display="flex"
+			align-items="center"
+			justify-content="center"
+			flex-direction="row"
+		>
+			<Box min-width="100px" min-height="100px" width="50%">
+				<LinkBox href="https://www.facebook.com/MCOMPUTERREPAIRS/reviews">
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.png?v=2024-08-17T09:37:37.011Z"
+						display="block"
+						width="300px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.png?v=2024-08-17T09%3A37%3A37.011Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.png?v=2024-08-17T09%3A37%3A37.011Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.png?v=2024-08-17T09%3A37%3A37.011Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.png?v=2024-08-17T09%3A37%3A37.011Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.png?v=2024-08-17T09%3A37%3A37.011Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.png?v=2024-08-17T09%3A37%3A37.011Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.png?v=2024-08-17T09%3A37%3A37.011Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+				</LinkBox>
+			</Box>
+			<Box min-width="100px" min-height="100px" width="50%">
+				<LinkBox href="https://g.page/r/CUuQwluZMsyQEAI/review">
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.jpeg?v=2024-08-17T09:34:32.239Z"
+						display="block"
+						width="300px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.jpeg?v=2024-08-17T09%3A34%3A32.239Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.jpeg?v=2024-08-17T09%3A34%3A32.239Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.jpeg?v=2024-08-17T09%3A34%3A32.239Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.jpeg?v=2024-08-17T09%3A34%3A32.239Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.jpeg?v=2024-08-17T09%3A34%3A32.239Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.jpeg?v=2024-08-17T09%3A34%3A32.239Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.jpeg?v=2024-08-17T09%3A34%3A32.239Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+				</LinkBox>
+			</Box>
+		</Box>
 		<Box min-width="100px" min-height="100px" />
 		<Section
 			color="--light"
@@ -77,7 +121,7 @@ export default (() => {
 								Email us
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3">
-								<Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--light">
+								<Link href="mailto:m.computerrepairs.kzn@gmail.com" text-decoration="none" hover-text-decoration="underline" color="--light">
 									m.computerrepairs.kzn@gmail.com
 								</Link>
 							</Text>
@@ -148,56 +192,6 @@ export default (() => {
 						</Box>
 					</Box>
 				</Box>
-				<Box width="50%" padding="8px 8px 8px 8px" md-width="100%">
-					<Box>
-						<Box
-							padding="56px 48px"
-							margin="0 0 0 auto"
-							md-max-width="100%"
-							background="--color-primary"
-							max-width="360px"
-						>
-							<Text as="h3" font="--headline3" margin="0 0 20px 0">
-								Leave us message
-							</Text>
-							<Formspree endpoint="xeqpgrlv">
-								<Box gap="16px" display="flex" flex-direction="row" flex-wrap="wrap">
-									<Box padding="8px 8px 8px 8px" width="100%">
-										<Box display="flex" flex-direction="column">
-											<Text margin="0 0 4px 0" font="--base">
-												Name
-											</Text>
-											<Input max-width="400px" width="100%" name="name" />
-										</Box>
-									</Box>
-									<Box width="100%" padding="8px 8px 8px 8px">
-										<Box display="flex" flex-direction="column">
-											<Text font="--base" margin="0 0 4px 0">
-												Email
-											</Text>
-											<Input max-width="400px" width="100%" type="email" name="email" />
-										</Box>
-									</Box>
-									<Box padding="8px 8px 8px 8px" width="100%">
-										<Box display="flex" flex-direction="column">
-											<Text font="--base" margin="0 0 4px 0">
-												Message
-											</Text>
-											<Input width="100%" name="message" as="textarea" rows="4" />
-										</Box>
-									</Box>
-									<Box width="100%" padding="8px 8px 8px 8px">
-										<Box display="flex" flex-direction="column" align-items="flex-start">
-											<Button background="--color-dark">
-												Send
-											</Button>
-										</Box>
-									</Box>
-								</Box>
-							</Formspree>
-						</Box>
-					</Box>
-				</Box>
 			</Box>
 		</Section>
 		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#292929">
@@ -228,7 +222,7 @@ export default (() => {
 						Phone
 					</Text>
 					<Link
-						href="tel:+9877654321223"
+						href="tel:+27783488838"
 						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
@@ -242,7 +236,7 @@ export default (() => {
 						E-mail
 					</Text>
 					<Link
-						href="mailto:info@yourdomain.com"
+						href="mailto:m.computerrepairs.kzn@gmail.com"
 						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
@@ -271,7 +265,6 @@ export default (() => {
 						Durban, KZN{"\n\n"}
 					</Text>
 					<Link
-						href="tel:+9877654321223"
 						color="#ffffff"
 						text-decoration-line="initial"
 						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
