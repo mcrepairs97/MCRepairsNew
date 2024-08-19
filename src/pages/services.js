@@ -151,7 +151,7 @@ export default (() => {
 			justify-content="center"
 			margin="30px 0px 0px 550px"
 		>
-			<Text margin="0px 0px 0px 0px" text-align="center" font="20px --fontFamily-googleGabarito">
+			<Text margin="0px 0px 0px 0px" text-align="center" font="24px --fontFamily-googleGabarito">
 				Our custom IT solutions are tailored technology systems and services designed specifically to meet the unique needs and requirements of a business or organization. Unlike off-the-shelf software, these solutions are developed or adapted to address particular operational challenges, integrate seamlessly with existing processes, and enhance efficiency. Custom IT solutions can include bespoke software applications, specialized hardware configurations, or unique configurations of existing technology, and they aim to provide a more precise fit and competitive advantage for the organization.
 			</Text>
 		</Box>
@@ -322,7 +322,7 @@ export default (() => {
 					flex-direction="column"
 					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					height="624px"
 				>
@@ -370,7 +370,7 @@ export default (() => {
 					flex-direction="column"
 					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					position="relative"
 					height="624px"
@@ -417,7 +417,7 @@ export default (() => {
 					flex-direction="column"
 					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					height="624px"
 				>
@@ -477,7 +477,7 @@ export default (() => {
 					flex-direction="column"
 					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					height="624px"
 				>
@@ -525,7 +525,7 @@ export default (() => {
 					flex-direction="column"
 					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					position="relative"
 					height="624px"
@@ -572,7 +572,7 @@ export default (() => {
 					flex-direction="column"
 					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					height="624px"
 				>
@@ -632,7 +632,7 @@ export default (() => {
 					flex-direction="column"
 					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					height="624px"
 				>
@@ -679,7 +679,7 @@ export default (() => {
 					flex-direction="column"
 					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					position="relative"
 					height="624px"
@@ -728,7 +728,7 @@ export default (() => {
 					flex-direction="column"
 					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					height="624px"
 				>
@@ -788,7 +788,7 @@ export default (() => {
 					flex-direction="column"
 					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					height="624px"
 				>
@@ -833,7 +833,7 @@ export default (() => {
 					flex-direction="column"
 					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					position="relative"
 					height="624px"
@@ -928,7 +928,7 @@ export default (() => {
 			flex-direction="row"
 			justify-content="center"
 		>
-			<Text margin="0px 0px 0px 0px" font="20px --fontFamily-googleGabarito" text-align="center">
+			<Text margin="0px 0px 0px 0px" font="24px --fontFamily-googleGabarito" text-align="center">
 				<br />
 				<br />
 				The networking services we offer encompass a range of essential functions that support{" "}

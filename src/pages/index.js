@@ -42,10 +42,10 @@ export default (() => {
 					display="block"
 					text-align="center"
 				>
-					<Text margin="0px 0px 0px 0px" font="50px sans-serif">
+					<Text margin="0px 0px 0px 0px" font="50px --fontFamily-googleGabarito">
 						Due for service?
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="24px sans-serif">
+					<Text margin="0px 0px 0px 0px" font="24px --fontFamily-googleGabarito">
 						Call to book an appointment.
 					</Text>
 					<Button
@@ -80,7 +80,13 @@ export default (() => {
 				Reason to choose our service
 			</Text>
 		</Box>
-		<Box min-width="100px" min-height="100px" />
+		<Hr
+			min-height="35px"
+			min-width="100%"
+			margin="0px 0px 0px 0px"
+			border-color="none"
+			border-width={0}
+		/>
 		<Box
 			min-width="100px"
 			min-height="100px"

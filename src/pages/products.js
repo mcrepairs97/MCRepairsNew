@@ -245,9 +245,9 @@ export default (() => {
 					border-radius="24px"
 					align-items="center"
 					flex-direction="column"
-					border-width="1px"
+					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 				>
 					<Image
@@ -282,8 +282,11 @@ export default (() => {
 								background="#2a7a2c"
 								padding="12px 24px 12px 24px"
 								disabled={false}
+								border-width="2px"
+								border-style="solid"
+								border-color="#000000"
 							>
-								Open Popup
+								Specifications
 							</Override>
 							<Override
 								slot="Wrapper"
@@ -293,7 +296,7 @@ export default (() => {
 								overflow-x="hidden"
 								overflow-y="hidden"
 							/>
-							<Text margin="0px 0px 16px 0px" text-align="left" font="--lead">
+							<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
 								Intel Core i5 11th Gen
 								<br />
 								ASUS PRIME H510M-D
@@ -319,9 +322,9 @@ export default (() => {
 					border-radius="24px"
 					align-items="center"
 					flex-direction="column"
-					border-width="1px"
+					border-width="3px"
 					border-style="solid"
-					border-color="--color-lightD2"
+					border-color="#bababa"
 					justify-content="center"
 					position="relative"
 				>
@@ -352,8 +355,16 @@ export default (() => {
 							R 6 999
 						</Text>
 						<Components.QuarklycommunityKitPopup>
-							<Override slot="Button Open" border-radius="15px 10px 20px 5px" background="#2a7a2c" padding="12px 24px 12px 24px">
-								Open Popup
+							<Override
+								slot="Button Open"
+								border-radius="15px 10px 20px 5px"
+								background="#2a7a2c"
+								padding="12px 24px 12px 24px"
+								border-width="2px"
+								border-style="solid"
+								border-color="#000000"
+							>
+								Specifications
 							</Override>
 							<Override
 								slot="Wrapper"
@@ -363,7 +374,7 @@ export default (() => {
 								overflow-y="hidden"
 								overflow-x="hidden"
 							/>
-							<Text margin="0px 0px 16px 0px" text-align="left" font="--lead">
+							<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
 								Intel Core i7 10th Gen
 								<br />
 								DDR4 8GB
