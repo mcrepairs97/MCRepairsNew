@@ -293,8 +293,22 @@ export default (() => {
 								overflow-x="hidden"
 								overflow-y="hidden"
 							/>
-							<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
-								R 9 999
+							<Text margin="0px 0px 16px 0px" text-align="left" font="--lead">
+								Intel Core i5 11th Gen
+								<br />
+								ASUS PRIME H510M-D
+								<br />
+								DDR4 16GB G-SKILL
+								<br />
+								1 Terabyte HDD
+								<br />
+								450W Huntkey Gaming PSU
+								<br />
+								RX580 8GB NITRO SAPPHIRE
+								<br />
+								Windows 11 Pro Activated
+								<br />
+								2 RGB Fans
 							</Text>
 						</Components.QuarklycommunityKitPopup>
 					</Box>
@@ -334,7 +348,7 @@ export default (() => {
 						<Text margin="0px 0px 8px 0px" font="--headline3">
 							10th Gen Core i7 DELL
 						</Text>
-						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+						<Text margin="0px 0px 16px 0px" text-align="left" font="--lead">
 							R 6 999
 						</Text>
 						<Components.QuarklycommunityKitPopup>
@@ -349,6 +363,17 @@ export default (() => {
 								overflow-y="hidden"
 								overflow-x="hidden"
 							/>
+							<Text margin="0px 0px 16px 0px" text-align="left" font="--lead">
+								Intel Core i7 10th Gen
+								<br />
+								DDR4 8GB
+								<br />
+								128GB SSD
+								<br />
+								MX230 2GB GDDR5
+								<br />
+								Windows 11 Home Activated
+							</Text>
 						</Components.QuarklycommunityKitPopup>
 					</Box>
 				</Box>
