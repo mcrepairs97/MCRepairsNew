@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Text, Image, Section } from "@quarkly/widgets";
+import { Theme, Link, Box, Image, Text, Hr, Section, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -123,6 +123,64 @@ export default (() => {
 		<Box
 			min-width="100px"
 			min-height="100px"
+			display="flex"
+			align-items="center"
+			flex-direction="row"
+			justify-content="center"
+		>
+			<Image
+				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/green-light-bulb-energy-icon-hi.png?v=2024-08-19T08:23:03.563Z"
+				display="block"
+				width="150px"
+				margin="0px 50px 0px 0px"
+				srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/green-light-bulb-energy-icon-hi.png?v=2024-08-19T08%3A23%3A03.563Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/green-light-bulb-energy-icon-hi.png?v=2024-08-19T08%3A23%3A03.563Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/green-light-bulb-energy-icon-hi.png?v=2024-08-19T08%3A23%3A03.563Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/green-light-bulb-energy-icon-hi.png?v=2024-08-19T08%3A23%3A03.563Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/green-light-bulb-energy-icon-hi.png?v=2024-08-19T08%3A23%3A03.563Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/green-light-bulb-energy-icon-hi.png?v=2024-08-19T08%3A23%3A03.563Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/green-light-bulb-energy-icon-hi.png?v=2024-08-19T08%3A23%3A03.563Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+			/>
+			<Text margin="0px 0px 0px 0px" font="48px --fontFamily-googleGabarito">
+				CUSTOM IT SOLUTIONS
+			</Text>
+		</Box>
+		<Box
+			min-width="100px"
+			min-height="100px"
+			display="flex"
+			flex-direction="row"
+			width="800px"
+			box-sizing="border-box"
+			align-items="center"
+			justify-content="center"
+			margin="30px 0px 0px 550px"
+		>
+			<Text margin="0px 0px 0px 0px" text-align="center" font="20px --fontFamily-googleGabarito">
+				Our custom IT solutions are tailored technology systems and services designed specifically to meet the unique needs and requirements of a business or organization. Unlike off-the-shelf software, these solutions are developed or adapted to address particular operational challenges, integrate seamlessly with existing processes, and enhance efficiency. Custom IT solutions can include bespoke software applications, specialized hardware configurations, or unique configurations of existing technology, and they aim to provide a more precise fit and competitive advantage for the organization.
+			</Text>
+		</Box>
+		<Box
+			min-width="100px"
+			min-height="100px"
+			display="flex"
+			flex-direction="row"
+			align-items="center"
+			justify-content="center"
+		>
+			<Hr
+				min-height="10px"
+				min-width={0}
+				margin="50px 0px 50px 0"
+				background="#000000"
+				width="1200px"
+				overflow="visible"
+				display="flex"
+				border-radius="50px"
+				align-items="center"
+				justify-content="center"
+				flex-direction="row"
+				align-content="center"
+			/>
+		</Box>
+		<Box
+			min-width="100px"
+			min-height="100px"
 			align-items="center"
 			display="block"
 			flex-direction="row"
@@ -134,8 +192,10 @@ export default (() => {
 				<br />
 				REPAIRS & SOLUTIONS
 			</Text>
-			<Text margin="0px 0px 0px 0px" font="24px --fontFamily-googleGabarito">
-				Specialize in replacing of laptop moduls shown below
+			<Text margin="5px 0px 50px 0px" font="24px --fontFamily-googleGabarito">
+				We offer repairs to laptop modules shown below
+				<br />
+				not limiting ourselves or clients to what is possible
 			</Text>
 		</Box>
 		<Section padding="40px 0 40px 0" quarkly-title="Product-1">
@@ -217,8 +277,31 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Box min-width="100px" min-height="100px" id="services" />
-		<Section padding="80px 0 80px 0">
+		<Box
+			min-width="100px"
+			min-height="100px"
+			display="flex"
+			flex-direction="row"
+			align-items="center"
+			justify-content="center"
+			id="services"
+		>
+			<Hr
+				min-height="10px"
+				min-width={0}
+				margin="50px 0px 50px 0"
+				background="#000000"
+				width="1200px"
+				overflow="visible"
+				display="flex"
+				border-radius="50px"
+				align-items="center"
+				justify-content="center"
+				flex-direction="row"
+				align-content="center"
+			/>
+		</Box>
+		<Section padding="20px 0 20px 0">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="grid"
@@ -373,7 +456,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0">
+		<Section padding="20px 0 20px 0">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="grid"
@@ -528,7 +611,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0">
+		<Section padding="20px 0 20px 0">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="grid"
@@ -684,7 +767,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0">
+		<Section padding="20px 0 20px 0">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="grid"
@@ -790,6 +873,194 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Box
+			min-width="100px"
+			min-height="100px"
+			display="flex"
+			flex-direction="row"
+			align-items="center"
+			justify-content="center"
+			id="networking"
+		>
+			<Hr
+				min-height="10px"
+				min-width={0}
+				margin="50px 0px 50px 0"
+				background="#000000"
+				width="1200px"
+				overflow="visible"
+				display="flex"
+				border-radius="50px"
+				align-items="center"
+				justify-content="center"
+				flex-direction="row"
+				align-content="center"
+			/>
+		</Box>
+		<Box
+			min-width="100px"
+			min-height="100px"
+			display="flex"
+			align-items="center"
+			justify-content="center"
+			flex-direction="row"
+		>
+			<Image
+				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/abstract-circuit-board-technology-icon-web-site-design-logo-app-computer-network-internet-communication-tech-icon-free-vector.png?v=2024-08-19T09:01:00.203Z"
+				display="block"
+				width="150px"
+				margin="0px 50px 0px 0px"
+				disableOptimization={false}
+				object-fit="fill"
+				srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/abstract-circuit-board-technology-icon-web-site-design-logo-app-computer-network-internet-communication-tech-icon-free-vector.png?v=2024-08-19T09%3A01%3A00.203Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/abstract-circuit-board-technology-icon-web-site-design-logo-app-computer-network-internet-communication-tech-icon-free-vector.png?v=2024-08-19T09%3A01%3A00.203Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/abstract-circuit-board-technology-icon-web-site-design-logo-app-computer-network-internet-communication-tech-icon-free-vector.png?v=2024-08-19T09%3A01%3A00.203Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/abstract-circuit-board-technology-icon-web-site-design-logo-app-computer-network-internet-communication-tech-icon-free-vector.png?v=2024-08-19T09%3A01%3A00.203Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/abstract-circuit-board-technology-icon-web-site-design-logo-app-computer-network-internet-communication-tech-icon-free-vector.png?v=2024-08-19T09%3A01%3A00.203Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/abstract-circuit-board-technology-icon-web-site-design-logo-app-computer-network-internet-communication-tech-icon-free-vector.png?v=2024-08-19T09%3A01%3A00.203Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/abstract-circuit-board-technology-icon-web-site-design-logo-app-computer-network-internet-communication-tech-icon-free-vector.png?v=2024-08-19T09%3A01%3A00.203Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+			/>
+			<Text margin="0px 0px 0px 0px" font="48px --fontFamily-googleGabarito">
+				NETWORKING
+			</Text>
+		</Box>
+		<Box
+			min-width="100px"
+			min-height="100px"
+			id="networking"
+			align-items="center"
+			display="flex"
+			flex-direction="row"
+			justify-content="center"
+		>
+			<Text margin="0px 0px 0px 0px" font="20px --fontFamily-googleGabarito" text-align="center">
+				<br />
+				<br />
+				The networking services we offer encompass a range of essential functions that support{" "}
+				<br />
+				communication, management, and security in a networked environment. These services include:
+				<br />
+				<br />
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Communication
+				</Strong>
+				: Email, web, and file transfer services.
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Configuration
+				</Strong>
+				: DHCP for dynamic IP assignment and manual IP management.
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Security
+				</Strong>
+				: Firewalls, VPNs, and intrusion detection/prevention.
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Management
+				</Strong>
+				: SNMP for monitoring and network management tools.
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Remote Access
+				</Strong>
+				: Telnet/SSH for remote control and access.
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Name Resolution
+				</Strong>
+				: DNS for translating domain names to IP addresses.
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Load Balancing
+				</Strong>
+				: Distributing traffic to optimize performance.
+				<br />
+				<br />
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Backup & Recovery
+				</Strong>
+				: Systems for data backup and disaster recovery.
+				<br />
+				<br />
+				These services ensure efficient, secure, and reliable network operations.{"\n\n"}
+			</Text>
+		</Box>
 		<Box min-width="100px" min-height="100px" id="networking" />
 		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#292929">
 			<Box
@@ -863,29 +1134,21 @@ export default (() => {
 						<br />
 						Durban, KZN{"\n\n"}
 					</Text>
-					<Link
-						color="#ffffff"
-						text-decoration-line="initial"
-						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
-						display="block"
-						margin="0px 0px 15px 0px"
-					>
-						9 AM to 5 PM - Monday
+					<Text margin="0px 0px 15px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
+						9 AM to 5 PM - Monday{"\n\n"}
 						<br />
-						{"\n\n"}9 AM to 5 PM - Tuesday
+						9 AM to 5 PM - Tuesday{"\n"}
 						<br />
-						{"\n"}9 AM to 5 PM - Wednesday
+						9 AM to 5 PM - Wednesday{"\n"}
 						<br />
-						{"\n"}9 AM to 5 PM - Thursday
+						9 AM to 5 PM - Thursday
 						<br />
 						{"\n\n"}9 AM to 5 PM - Friday
 						<br />
-						{"\n\n"}9 AM to 3 PM - Saturday
+						{"\n\n"}9 AM to 3 PM - Saturday{"\n"}
 						<br />
-						{"\n "}Closed - Sunday
-						<br />
-						{"\n\n\n\n"}
-					</Link>
+						{" "}Closed - Sunday{"\n\n"}
+					</Text>
 				</Box>
 				<Box
 					min-width="100px"

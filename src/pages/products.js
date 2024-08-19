@@ -211,7 +211,6 @@ export default (() => {
 				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Box>
-		<Box min-width="100px" min-height="100px" />
 		<Section padding="80px 0 80px 0">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -252,15 +251,15 @@ export default (() => {
 					justify-content="center"
 				>
 					<Image
-						src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80"
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/PC1.png?v=2024-08-19T09:07:47.264Z"
 						border-radius="16px"
 						margin="0px 0px 32px 0px"
 						max-width="100%"
 						md-width="100%"
 						width="100%"
-						height="278px"
-						object-fit="cover"
-						srcSet="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1556761175-4b46a572b786?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+						height="280px"
+						object-fit="contain"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/PC1.png?v=2024-08-19T09%3A07%3A47.264Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/PC1.png?v=2024-08-19T09%3A07%3A47.264Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/PC1.png?v=2024-08-19T09%3A07%3A47.264Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/PC1.png?v=2024-08-19T09%3A07%3A47.264Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/PC1.png?v=2024-08-19T09%3A07%3A47.264Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/PC1.png?v=2024-08-19T09%3A07%3A47.264Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/PC1.png?v=2024-08-19T09%3A07%3A47.264Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 					<Box
@@ -271,34 +270,37 @@ export default (() => {
 						justify-content="flex-start"
 					>
 						<Text margin="0px 0px 8px 0px" font="--headline3">
-							Company
+							11th Gen Core i5 Bit Fenix
 						</Text>
 						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
-							$ 199 / month
+							R 9 999
 						</Text>
-						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
-							Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
-						</Text>
-						<Link
-							href="#"
-							text-decoration-line="initial"
-							color="--dark"
-							font="--lead"
-							padding="12px 24px 12px 24px"
-							border-radius="8px"
-							background="--color-secondary"
-							lg-padding="12px 20px 12px 20px"
-							transition="background-color 0.2s ease-in-out 0s"
-							hover-transition="background-color 0.2s ease-in-out 0s"
-							hover-background="--color-orange"
-						>
-							Select plan
-						</Link>
+						<Components.QuarklycommunityKitPopup>
+							<Override
+								slot="Button Open"
+								border-radius="15px 10px 20px 5px"
+								background="#2a7a2c"
+								padding="12px 24px 12px 24px"
+								disabled={false}
+							>
+								Open Popup
+							</Override>
+							<Override
+								slot="Wrapper"
+								flex="0 1 auto"
+								display="flex"
+								flex-direction="row"
+								overflow-x="hidden"
+								overflow-y="hidden"
+							/>
+							<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+								R 9 999
+							</Text>
+						</Components.QuarklycommunityKitPopup>
 					</Box>
 				</Box>
 				<Box
 					width="100%"
-					display="flex"
 					padding="7px 7px 40px 7px"
 					border-radius="24px"
 					align-items="center"
@@ -309,31 +311,17 @@ export default (() => {
 					justify-content="center"
 					position="relative"
 				>
-					<Text
-						margin="0px 0px 0px 0px"
-						font="--base"
-						color="#ffffff"
-						padding="4px 16px 4px 16px"
-						background="--color-green"
-						border-radius="50px"
-						position="absolute"
-						top="24px"
-						right="24px"
-						bottom="auto"
-						left="auto"
-					>
-						Recomended
-					</Text>
 					<Image
-						src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Dell3593.png?v=2024-08-19T09:22:09.645Z"
 						border-radius="16px"
 						margin="0px 0px 32px 0px"
 						max-width="100%"
 						md-width="100%"
 						max-height="278px"
-						object-fit="cover"
+						object-fit="contain"
 						width="100%"
-						srcSet="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80 500w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 800w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80 1080w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80 1600w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80 2000w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80 2600w,https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3200&q=80 3200w"
+						height="280px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Dell3593.png?v=2024-08-19T09%3A22%3A09.645Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Dell3593.png?v=2024-08-19T09%3A22%3A09.645Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Dell3593.png?v=2024-08-19T09%3A22%3A09.645Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Dell3593.png?v=2024-08-19T09%3A22%3A09.645Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Dell3593.png?v=2024-08-19T09%3A22%3A09.645Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Dell3593.png?v=2024-08-19T09%3A22%3A09.645Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Dell3593.png?v=2024-08-19T09%3A22%3A09.645Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 					<Box
@@ -344,34 +332,29 @@ export default (() => {
 						justify-content="flex-start"
 					>
 						<Text margin="0px 0px 8px 0px" font="--headline3">
-							Pro
+							10th Gen Core i7 DELL
 						</Text>
 						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
-							$ 10 / month
+							R 6 999
 						</Text>
-						<Text margin="0px 0px 48px 0px" color="--darkL2" font="--base">
-							Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at
-						</Text>
-						<Link
-							href="#"
-							text-decoration-line="initial"
-							color="--dark"
-							font="--lead"
-							padding="12px 24px 12px 24px"
-							border-radius="8px"
-							background="--color-secondary"
-							lg-padding="12px 20px 12px 20px"
-							transition="background-color 0.2s ease-in-out 0s"
-							hover-transition="background-color 0.2s ease-in-out 0s"
-							hover-background="--color-orange"
-						>
-							Select plan
-						</Link>
+						<Components.QuarklycommunityKitPopup>
+							<Override slot="Button Open" border-radius="15px 10px 20px 5px" background="#2a7a2c" padding="12px 24px 12px 24px">
+								Open Popup
+							</Override>
+							<Override
+								slot="Wrapper"
+								flex="0 1 auto"
+								display="flex"
+								flex-direction="row"
+								overflow-y="hidden"
+								overflow-x="hidden"
+							/>
+						</Components.QuarklycommunityKitPopup>
 					</Box>
 				</Box>
 				<Box
 					width="100%"
-					display="flex"
+					display="none"
 					padding="7px 7px 40px 7px"
 					border-radius="24px"
 					align-items="center"
@@ -428,7 +411,6 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Box min-width="100px" min-height="100px" />
 		<Box min-width="100px" min-height="100px" id="amd" />
 		<Box
 			min-width="100px"
@@ -451,8 +433,7 @@ export default (() => {
 				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Box>
-		<Box min-width="100px" min-height="100px" />
-		<Section padding="80px 0 80px 0">
+		<Section padding="80px 0 20px 0">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="flex"
@@ -466,14 +447,11 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 			>
 				<Text margin="0px 0px 16px 0px" font="--headline1" text-align="center" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-					Price
-				</Text>
-				<Text margin="0px 0px 0px 0px" color="--darkL2" text-align="center" font="--lead">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					DESKTOPS & LAPTOPS{"\n\n"}
 				</Text>
 			</Box>
 			<Box
-				display="grid"
+				display="none"
 				flex-wrap="wrap"
 				width="100%"
 				align-items="center"
@@ -671,6 +649,22 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Box
+			min-width="100px"
+			min-height="100px"
+			align-items="center"
+			display="flex"
+			flex-direction="row"
+			justify-content="center"
+		>
+			<Image
+				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/pngtree-out-of-stock-symbol-rectangular-sign-vector-picture-image_9579125.png?v=2024-08-19T09:29:08.682Z"
+				display="block"
+				height="300px"
+				srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-out-of-stock-symbol-rectangular-sign-vector-picture-image_9579125.png?v=2024-08-19T09%3A29%3A08.682Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-out-of-stock-symbol-rectangular-sign-vector-picture-image_9579125.png?v=2024-08-19T09%3A29%3A08.682Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-out-of-stock-symbol-rectangular-sign-vector-picture-image_9579125.png?v=2024-08-19T09%3A29%3A08.682Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-out-of-stock-symbol-rectangular-sign-vector-picture-image_9579125.png?v=2024-08-19T09%3A29%3A08.682Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-out-of-stock-symbol-rectangular-sign-vector-picture-image_9579125.png?v=2024-08-19T09%3A29%3A08.682Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-out-of-stock-symbol-rectangular-sign-vector-picture-image_9579125.png?v=2024-08-19T09%3A29%3A08.682Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/pngtree-out-of-stock-symbol-rectangular-sign-vector-picture-image_9579125.png?v=2024-08-19T09%3A29%3A08.682Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+			/>
+		</Box>
 		<Box min-width="100px" min-height="100px" />
 		<Section md-padding="60px 0 30px 0" quarkly-title="Footer-15" padding="90px 0 30px 0" background="#292929">
 			<Box
@@ -744,29 +738,21 @@ export default (() => {
 						<br />
 						Durban, KZN{"\n\n"}
 					</Text>
-					<Link
-						color="#ffffff"
-						text-decoration-line="initial"
-						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
-						display="block"
-						margin="0px 0px 15px 0px"
-					>
-						9 AM to 5 PM - Monday
+					<Text margin="0px 0px 15px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
+						9 AM to 5 PM - Monday{"\n\n"}
 						<br />
-						{"\n\n"}9 AM to 5 PM - Tuesday
+						9 AM to 5 PM - Tuesday{"\n"}
 						<br />
-						{"\n"}9 AM to 5 PM - Wednesday
+						9 AM to 5 PM - Wednesday{"\n"}
 						<br />
-						{"\n"}9 AM to 5 PM - Thursday
+						9 AM to 5 PM - Thursday
 						<br />
 						{"\n\n"}9 AM to 5 PM - Friday
 						<br />
-						{"\n\n"}9 AM to 3 PM - Saturday
+						{"\n\n"}9 AM to 3 PM - Saturday{"\n"}
 						<br />
-						{"\n "}Closed - Sunday
-						<br />
-						{"\n\n\n\n"}
-					</Link>
+						{" "}Closed - Sunday{"\n\n\n\n"}
+					</Text>
 				</Box>
 				<Box
 					min-width="100px"

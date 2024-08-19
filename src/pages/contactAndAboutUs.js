@@ -264,29 +264,21 @@ export default (() => {
 						<br />
 						Durban, KZN{"\n\n"}
 					</Text>
-					<Link
-						color="#ffffff"
-						text-decoration-line="initial"
-						font="normal 300 16px/1.5 --fontFamily-sansTrebuchet"
-						display="block"
-						margin="0px 0px 15px 0px"
-					>
-						9 AM to 5 PM - Monday
+					<Text margin="0px 0px 15px 0px" font="normal 300 16px/1.5 --fontFamily-sansTrebuchet" color="#ffffff">
+						9 AM to 5 PM - Monday{"\n\n"}
 						<br />
-						{"\n\n"}9 AM to 5 PM - Tuesday
+						9 AM to 5 PM - Tuesday{"\n"}
 						<br />
-						{"\n"}9 AM to 5 PM - Wednesday
+						9 AM to 5 PM - Wednesday{"\n"}
 						<br />
-						{"\n"}9 AM to 5 PM - Thursday
+						9 AM to 5 PM - Thursday
 						<br />
 						{"\n\n"}9 AM to 5 PM - Friday
 						<br />
-						{"\n\n"}9 AM to 3 PM - Saturday
+						{"\n\n"}9 AM to 3 PM - Saturday{"\n"}
 						<br />
-						{"\n "}Closed - Sunday
-						<br />
-						{"\n\n\n\n"}
-					</Link>
+						{" "}Closed - Sunday{"\n\n\n\n"}
+					</Text>
 				</Box>
 				<Box
 					min-width="100px"
