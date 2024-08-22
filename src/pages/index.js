@@ -382,47 +382,6 @@ export default (() => {
 				>
 					Copyright @ 2024 Martin's Computer Repairs
 				</Text>
-				<Box
-					align-items="flex-start"
-					margin="0px 0px 0px -"
-					justify-content="flex-start"
-					display="grid"
-					lg-margin="0px 0px 0px 0px"
-					flex-direction="row"
-					flex-wrap="wrap"
-					md-margin="0px 0px 25px 0px"
-					sm-flex-direction="column"
-					md-order="-1"
-					grid-template-columns="repeat(2, 1fr)"
-					grid-gap="0 34px"
-				>
-					<Link
-						margin="0px 0 0px 0"
-						lg-margin="0px 6px 0px 0px"
-						display="flex"
-						href="#"
-						font="normal 400 16px/0 --fontFamily-googleRoboto"
-						text-decoration-line="initial"
-						color="#5a5d64"
-						hover-color="--primary"
-						sm-padding="0 0 15px 0"
-					>
-						Privacy Policy
-					</Link>
-					<Link
-						padding="0 0 0 0"
-						margin="0px 0 0px 0"
-						hover-color="--primary"
-						lg-margin="0px 6px 0px 0px"
-						href="#"
-						text-decoration-line="initial"
-						color="#5a5d64"
-						font="normal 400 16px/24px --fontFamily-googleRoboto"
-						display="flex"
-					>
-						Terms
-					</Link>
-				</Box>
 			</Box>
 		</Section>
 		<Link

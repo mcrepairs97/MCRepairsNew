@@ -132,6 +132,7 @@ export default (() => {
 			align-items="center"
 			flex-direction="row"
 			justify-content="center"
+			padding="50px 0px 0px 0px"
 		>
 			<Image
 				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/green-light-bulb-energy-icon-hi.png?v=2024-08-19T08:23:03.563Z"

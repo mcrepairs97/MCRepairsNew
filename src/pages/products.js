@@ -121,15 +121,13 @@ export default (() => {
 				<Override slot="Points" display="none" />
 			</Components.QuarklycommunityKitCarousel>
 		</Box>
-		<Box min-width="100px" min-height="100px" />
-		<Box min-width="100px" min-height="100px" />
+		<Box min-width="100px" min-height="100px" id="preowned" />
 		<Section
 			background="url(https://uploads.quarkly.io/66ba53019710450018a21837/images/prebuildBanner.jpg?v=2024-08-13T12:18:27.236Z) center/cover"
 			padding="140px 0"
 			sm-padding="40px 0"
 			quarkly-title="About-16"
 			height="800px"
-			id="preowned"
 		>
 			<Override
 				slot="SectionContent"
@@ -204,7 +202,7 @@ export default (() => {
 				/>
 			</LinkBox>
 		</Section>
-		<Section padding="80px 0" sm-padding="40px 0">
+		<Section padding="20px 0 20px 0" sm-padding="40px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Text as="p" font="normal 300 20px/1.5 --fontFamily-googleGabarito" margin="20px 0 20px 0" text-align="center">
 				Find what best suits your needs and budget,
