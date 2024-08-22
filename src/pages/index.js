@@ -75,18 +75,18 @@ export default (() => {
 			</Box>
 		</Box>
 		<Box min-width="100px" min-height="100px" />
-		<Box min-width="100px" min-height="100px">
-			<Text margin="0px 0px 0px 0px" text-align="center" display="block" font="bold 70px --fontFamily-googleGabarito">
+		<Box min-width="100px" min-height="100px" background="#000000" padding="40px 0px 0 0px">
+			<Text
+				margin="0px 0px 0px 0px"
+				text-align="center"
+				display="block"
+				font="bold 70px --fontFamily-googleGabarito"
+				color="#ffffff"
+				text-decoration-line="underline"
+			>
 				Reason to choose our service
 			</Text>
 		</Box>
-		<Hr
-			min-height="35px"
-			min-width="100%"
-			margin="0px 0px 0px 0px"
-			border-color="none"
-			border-width={0}
-		/>
 		<Box
 			min-width="100px"
 			min-height="100px"
@@ -140,8 +140,17 @@ export default (() => {
 			display="flex"
 			flex-direction="row"
 			justify-content="center"
+			border-width={0}
 		>
-			<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" background="#ffffff" />
+			<Hr
+				min-height="10px"
+				margin="0px 0px 0px 0px"
+				background="#ffffff"
+				width="1200px"
+				align-self="auto"
+				display="block"
+				border-radius="50px"
+			/>
 		</Box>
 		<Box
 			min-width="100px"
@@ -199,12 +208,26 @@ export default (() => {
 		</Box>
 		<Box min-width="100px" min-height="100px" />
 		<Section
-			padding="90px 0 30px 0"
+			padding="0 0 30px 0"
 			md-padding="60px 0 30px 0"
 			quarkly-title="Footer-15"
 			font="50px sans-serif"
 			background="#292929"
 		>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				align-items="center"
+				display="flex"
+				flex-direction="row"
+				justify-content="center"
+			>
+				<Text margin="0px 0px 0px 0px" color="#ffffff" font="24px --fontFamily-googleGabarito">
+					Please note we are not a walk in store.
+					<br />
+					{"\n\n"}
+				</Text>
+			</Box>
 			<Box
 				min-width="100px"
 				min-height="100px"

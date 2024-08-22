@@ -1062,7 +1062,19 @@ export default (() => {
 			</Text>
 		</Box>
 		<Box min-width="100px" min-height="100px" id="networking" />
-		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#292929">
+		<Section padding="0 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#292929">
+			<Box
+				min-width="100px"
+				min-height="100px"
+				align-items="center"
+				display="flex"
+				flex-direction="row"
+				justify-content="center"
+			>
+				<Text margin="0px 0px 0px 0px" color="#ffffff" font="24px --fontFamily-googleGabarito">
+					Please note we are not a walk in store.
+				</Text>
+			</Box>
 			<Box
 				min-width="100px"
 				min-height="100px"

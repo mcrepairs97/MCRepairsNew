@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Text, Image, LinkBox, Icon, Section } from "@quarkly/widgets";
+import { Theme, Link, Box, Text, Hr, Section, Image, LinkBox, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -31,8 +31,57 @@ export default (() => {
 			flex-direction="row"
 			justify-content="center"
 		>
-			<Text margin="0px 0px 0px 0px" font="bold 28px --fontFamily-googleGabarito">
-				WANT TO LEAVE A REVIEW?
+			<Section
+				background="url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover"
+				padding="140px 0"
+				sm-padding="40px 0"
+				quarkly-title="About-16"
+				inner-min-width="80%"
+				width="80%"
+				border-radius="50px"
+			>
+				<Override slot="SectionContent" align-items="center" justify-content="center" sm-min-width="280px" />
+				<Box
+					padding="50px 80px 50px 50px"
+					color="--dark"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+					max-width="670px"
+					background="#ffffff"
+					sm-padding="50px 24px 50px 24px"
+					border-radius="25px"
+				>
+					<Text margin="0 0 16px 0" as="h2" font="--headline2">
+						About us
+					</Text>
+					<Hr
+						min-height="10px"
+						margin="0px 0px 0px 0px"
+						border-color="--color-dark"
+						border-width="3px 0 0 0"
+						max-width="50px"
+						width="100%"
+					/>
+					<Text font="--base" text-align="center">
+						As an IT company we look at making our environment easily accessible and a convenient place for everyone looking to be part of the technological side of life.
+						<br />
+						We don't want to be seen as competitors but rather as a helping hand in a sense of being able to meet our clients specific needs to the point, doing more than what your "normal" IT shop would do, exceeding expectations of not just others but of ourselves too.
+					</Text>
+				</Box>
+			</Section>
+		</Box>
+		<Box min-width="100px" min-height="100px" />
+		<Box
+			min-width="100px"
+			min-height="100px"
+			align-items="center"
+			display="flex"
+			flex-direction="row"
+			justify-content="center"
+		>
+			<Text margin="0px 0px 0px 0px" font="bold 28px --fontFamily-googleGabarito" text-decoration-line="underline">
+				Want to leave a review?
 			</Text>
 		</Box>
 		<Box
@@ -42,6 +91,8 @@ export default (() => {
 			align-items="center"
 			justify-content="center"
 			flex-direction="row"
+			margin="0px 0px 0 0px"
+			padding="0px 0px 30px 0px"
 		>
 			<Box min-width="100px" min-height="100px" width="50%">
 				<LinkBox href="https://www.facebook.com/MCOMPUTERREPAIRS/reviews">
@@ -66,7 +117,23 @@ export default (() => {
 				</LinkBox>
 			</Box>
 		</Box>
-		<Box min-width="100px" min-height="100px" />
+		<Box
+			min-width="100px"
+			min-height="100px"
+			align-items="center"
+			display="flex"
+			flex-direction="row"
+			justify-content="center"
+		>
+			<Hr
+				min-height="10px"
+				min-width={0}
+				margin="0px 0px 0px 0px"
+				width="1500px"
+				background="#000000"
+				border-radius="50px"
+			/>
+		</Box>
 		<Section
 			color="--light"
 			padding="100px 0"
@@ -194,7 +261,21 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="90px 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#292929">
+		<Section padding="0 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#292929">
+			<Box
+				min-width="100px"
+				min-height="100px"
+				align-items="center"
+				display="flex"
+				flex-direction="row"
+				justify-content="center"
+			>
+				<Text margin="0px 0px 0px 0px" color="#ffffff" font="26px --fontFamily-googleGabarito">
+					Please note we are not a walk in store.
+					<br />
+					{"\n\n"}
+				</Text>
+			</Box>
 			<Box
 				min-width="100px"
 				min-height="100px"
