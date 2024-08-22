@@ -17,10 +17,11 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66ba53019710450018a21837/images/FBPPTrans.png?v=2024-08-12T18:24:38.389Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Components.NavMenu lazy-load={false} background="#888888" position="static">
+		<Components.NavMenu lazy-load={false} background="#888888" position="static" height="130px">
 			<Override slot="link3" href="/contact-and-about-us" />
 			<Override slot="link2" href="/services" />
 			<Override slot="link1" href="/products" />
+			<Override slot="linkBox" align-self="center" />
 		</Components.NavMenu>
 		<Box min-width="100px" min-height="100px" />
 		<Box
