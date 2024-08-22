@@ -43,7 +43,7 @@ export default (() => {
 				display="flex"
 				flex-direction="row"
 				justify-content="center"
-				hover-background="#ffffff"
+				hover-background="rgba(255, 255, 255, 0)"
 			>
 				<Link
 					href="#repairs"

@@ -89,6 +89,7 @@ export default (() => {
 				</Link>
 			</Box>
 		</Box>
+		<Box min-width="100px" min-height="100px" />
 		<Box
 			min-height="100px"
 			height="800px"
@@ -121,12 +122,14 @@ export default (() => {
 			</Components.QuarklycommunityKitCarousel>
 		</Box>
 		<Box min-width="100px" min-height="100px" />
+		<Box min-width="100px" min-height="100px" />
 		<Section
 			background="url(https://uploads.quarkly.io/66ba53019710450018a21837/images/prebuildBanner.jpg?v=2024-08-13T12:18:27.236Z) center/cover"
 			padding="140px 0"
 			sm-padding="40px 0"
 			quarkly-title="About-16"
 			height="800px"
+			id="preowned"
 		>
 			<Override
 				slot="SectionContent"
