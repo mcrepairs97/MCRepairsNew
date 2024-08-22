@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Image, Text, Hr, Section } from "@quarkly/widgets";
+import { Theme, Link, Box, Image, LinkBox, Text, Hr, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -15,7 +15,7 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66ba53019710450018a21837/images/FBPPTrans.png?v=2024-08-12T18:24:38.389Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Components.NavMenu background="#888888">
+		<Components.NavMenu background="#888888" position="static" top={0} z-index="1">
 			<Override slot="link1" href="/products" />
 			<Override slot="link2" href="/services" />
 			<Override slot="link3" href="/contact-and-about-us" />
@@ -29,7 +29,10 @@ export default (() => {
 			align-items="center"
 			justify-content="center"
 			flex-wrap="no-wrap"
-			background="#ffffff"
+			background="#bebebe"
+			position="sticky"
+			top={0}
+			z-index="1"
 		>
 			<Box
 				min-width="100px"
@@ -65,14 +68,15 @@ export default (() => {
 			>
 				<Link
 					href="#preowned"
-					color="#000000"
+					color="#ffffff"
 					text-align="center"
 					font="bold 24px --fontFamily-googleGabarito"
-					background="#24e21a"
+					background="green"
 					border-width="2px"
 					border-style="solid"
 					border-radius="15px 10px 20px 5px"
 					padding="10px 10px 10px 10px"
+					border-color="#000000"
 				>
 					PREOWNED SYSTEMS
 				</Link>
@@ -125,18 +129,20 @@ export default (() => {
 				display="flex"
 				flex-direction="row"
 			/>
-			<Image
-				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11:49:52.656Z"
-				display="block"
-				width="275px"
-				margin="0px 50px 0px 0px"
-				border-radius="50px"
-				border-width="3px"
-				border-color="#ffffff"
-				border-style="solid"
-				srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=3200 3200w"
-				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
-			/>
+			<LinkBox href="#intel">
+				<Image
+					src="https://uploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11:50:04.467Z"
+					display="block"
+					width="275px"
+					margin="0px 50px 0px 0px"
+					border-radius="50px"
+					border-width="3px"
+					border-color="#ffffff"
+					border-style="solid"
+					srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+				/>
+			</LinkBox>
 			<Box
 				min-width="100px"
 				min-height="100px"
@@ -173,22 +179,24 @@ export default (() => {
 					border-radius="50px"
 				/>
 			</Box>
-			<Image
-				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11:50:04.467Z"
-				display="block"
-				width="275px"
-				margin="0px 0px 0px 50px"
-				border-style="solid"
-				border-width="3px"
-				border-color="#ffffff"
-				border-radius="50px"
-				srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=3200 3200w"
-				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
-			/>
+			<LinkBox href="#amd">
+				<Image
+					src="https://uploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11:49:52.656Z"
+					display="block"
+					width="275px"
+					margin="0px 0px 0px 50px"
+					border-style="solid"
+					border-width="3px"
+					border-color="#ffffff"
+					border-radius="50px"
+					srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+				/>
+			</LinkBox>
 		</Section>
 		<Section padding="80px 0" sm-padding="40px 0">
 			<Override slot="SectionContent" align-items="center" />
-			<Text as="p" font="--lead" margin="20px 0 20px 0" text-align="center">
+			<Text as="p" font="normal 300 20px/1.5 --fontFamily-googleGabarito" margin="20px 0 20px 0" text-align="center">
 				Find what best suits your needs and budget,
 				<br />
 				select between AMD or Intel which are both know for great performance and efficiency
@@ -203,6 +211,7 @@ export default (() => {
 					border-style="solid"
 					border-color="#000000"
 					background="green"
+					font="normal bold 16px/1.5 --fontFamily-googleGabarito"
 				>
 					More info
 				</Override>

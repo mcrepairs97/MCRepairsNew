@@ -28,11 +28,12 @@ export default (() => {
 			flex-direction="row"
 			justify-content="center"
 			overflow-x="visible"
-			position="static"
+			position="sticky"
 			right={0}
 			left={0}
-			background="#ffffff"
+			background="#bebebe"
 			top={0}
+			z-index="1"
 		>
 			<Box
 				min-width="100px"
@@ -45,9 +46,9 @@ export default (() => {
 			>
 				<Link
 					href="#repairs"
-					color="#000000"
+					color="#ffffff"
 					font="bold 24px --fontFamily-googleGabarito"
-					background="#24e21a"
+					background="green"
 					padding="10px 10px 10px 10px"
 					border-width="2px"
 					border-style="solid"
@@ -55,6 +56,7 @@ export default (() => {
 					text-decoration-line="initial"
 					active-background="#888888"
 					active-color="#ffffff"
+					border-color="#000000"
 				>
 					REPAIRS
 				</Link>
@@ -70,16 +72,17 @@ export default (() => {
 			>
 				<Link
 					href="#services"
-					color="#000000"
+					color="#ffffff"
 					font="bold 24px --fontFamily-googleGabarito"
 					padding="10px 10px 10px 10px"
 					border-style="solid"
 					border-width="2px"
-					background="#24e21a"
+					background="green"
 					border-radius="15px 10px 20px 5px"
 					text-decoration-line="initial"
 					active-background="#888888"
 					active-color="#ffffff"
+					border-color="#000000"
 				>
 					SERVICES
 				</Link>
@@ -95,9 +98,9 @@ export default (() => {
 			>
 				<Link
 					href="#networking"
-					color="#000000"
+					color="#ffffff"
 					font="bold 24px --fontFamily-googleGabarito"
-					background="#24e21a"
+					background="green"
 					padding="10px 10px 10px 10px"
 					border-width="2px"
 					border-style="solid"
@@ -105,6 +108,7 @@ export default (() => {
 					text-decoration-line="initial"
 					active-background="#888888"
 					active-color="#ffffff"
+					border-color="#000000"
 				>
 					NETWORKING
 				</Link>

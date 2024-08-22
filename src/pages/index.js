@@ -51,7 +51,7 @@ export default (() => {
 					<Button
 						type="link"
 						margin="20px 0px 0px 0px"
-						border-width="3px"
+						border-width="2px"
 						border-color="#000000"
 						border-style="solid"
 						border-radius="15px 10px 20px 5px"
