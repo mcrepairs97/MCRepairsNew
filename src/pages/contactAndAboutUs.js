@@ -12,7 +12,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"contact-and-about-us"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Contact & About us
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66ba53019710450018a21837/images/FBPPTrans.png?v=2024-08-12T18:24:38.389Z"} type={"image/x-icon"} />
