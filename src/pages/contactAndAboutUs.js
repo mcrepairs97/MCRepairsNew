@@ -12,16 +12,33 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"contact-and-about-us"} />
 		<Helmet>
 			<title>
-				Contact & About us
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66ba53019710450018a21837/images/FBPPTrans.png?v=2024-08-12T18:24:38.389Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.NavMenu lazy-load={false} background="#888888" position="static" height="130px">
-			<Override slot="link3" href="/contact-and-about-us" />
-			<Override slot="link2" href="/services" />
-			<Override slot="link1" href="/products" />
+			<Override slot="link3" href="/contact-and-about-us" lg-color="#ffffff" />
+			<Override slot="link2" href="/services" lg-color="#ffffff" />
+			<Override slot="link1" href="/products" lg-color="#ffffff" />
 			<Override slot="linkBox" align-self="center" />
+			<Override slot="quarklycommunityKitMobileSidePanelOverride2" lg-border-color="#000000" lg-color="#ffffff" />
+			<Override slot="link" lg-color="#ffffff" />
+			<Override
+				slot="quarklycommunityKitMobileSidePanelOverride"
+				lg-align-items="center"
+				lg-display="flex"
+				lg-flex-direction="row"
+				lg-justify-content="center"
+				lg-padding="60px 0px 0px 0px"
+			/>
+			<Override slot="quarklycommunityKitMobileSidePanel">
+				<Override slot="Overlay" />
+				<Override slot="Wrapper" />
+			</Override>
+			<Override slot="quarklycommunityKitMobileSidePanelOverride1" lg-height="130px" lg-background="#888888" />
+			<Override slot="quarklycommunityKitMobileSidePanelOverride3" lg-color="#ffffff" />
+			<Override slot="quarklycommunityKitMobileSidePanelOverride5" lg-color="#ffffff" />
 		</Components.NavMenu>
 		<Box min-width="100px" min-height="100px" />
 		<Box
@@ -40,6 +57,7 @@ export default (() => {
 				inner-min-width="80%"
 				width="80%"
 				border-radius="50px"
+				lg-height="500px"
 			>
 				<Override slot="SectionContent" align-items="center" justify-content="center" sm-min-width="280px" />
 				<Box
@@ -52,8 +70,9 @@ export default (() => {
 					background="#ffffff"
 					sm-padding="50px 24px 50px 24px"
 					border-radius="25px"
+					lg-height="300px"
 				>
-					<Text margin="0 0 16px 0" as="h2" font="--headline2">
+					<Text margin="0 0 16px 0" as="h2" font="--headline2" lg-font="normal 900 38px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 						About us
 					</Text>
 					<Hr
@@ -96,7 +115,7 @@ export default (() => {
 			padding="0px 0px 30px 0px"
 		>
 			<Box min-width="100px" min-height="100px" width="50%">
-				<LinkBox href="https://www.facebook.com/MCOMPUTERREPAIRS/reviews">
+				<LinkBox href="https://www.facebook.com/MCOMPUTERREPAIRS/reviews" lg-height="100px">
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.png?v=2024-08-17T09:37:37.011Z"
 						display="block"
@@ -107,7 +126,7 @@ export default (() => {
 				</LinkBox>
 			</Box>
 			<Box min-width="100px" min-height="100px" width="50%">
-				<LinkBox href="https://g.page/r/CUuQwluZMsyQEAI/review">
+				<LinkBox href="https://g.page/r/CUuQwluZMsyQEAI/review" lg-height="100px">
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/1699349664215.jpeg?v=2024-08-17T09:34:32.239Z"
 						display="block"
@@ -130,9 +149,10 @@ export default (() => {
 				min-height="10px"
 				min-width={0}
 				margin="0px 0px 0px 0px"
-				width="1500px"
+				width="80%"
 				background="#000000"
 				border-radius="50px"
+				lg-width="80%"
 			/>
 		</Box>
 		<Section

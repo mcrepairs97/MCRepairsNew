@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Martin's Computer Repairs
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66ba53019710450018a21837/images/FBPPTrans.png?v=2024-08-12T18:24:38.389Z"} type={"image/x-icon"} />
@@ -23,9 +23,26 @@ export default (() => {
 			<Override slot="link2" href="/services" />
 			<Override slot="link3" href="/contact-and-about-us" />
 			<Override slot="linkBox" align-self="center" />
+			<Override slot="quarklycommunityKitMobileSidePanelOverride5" lg-color="#ffffff" />
+			<Override
+				slot="quarklycommunityKitMobileSidePanelOverride"
+				lg-padding="60px 0px 0px 0px"
+				lg-align-items="center"
+				lg-display="flex"
+				lg-flex-direction="row"
+				lg-justify-content="center"
+			/>
+			<Override slot="quarklycommunityKitMobileSidePanelOverride1" lg-background="#888888" lg-height="130px" />
 		</Components.NavMenu>
 		<Box min-width="100px" min-height="100px" />
-		<Box min-width="100px" min-height="100px">
+		<Box
+			min-width="100px"
+			min-height="100px"
+			lg-align-items="center"
+			lg-display="flex"
+			lg-flex-direction="row"
+			lg-justify-content="center"
+		>
 			<Box
 				min-width="100px"
 				min-height="100px"
@@ -42,11 +59,12 @@ export default (() => {
 					align-self="auto"
 					display="block"
 					text-align="center"
+					lg-margin="0px 0px 0px 50px"
 				>
-					<Text margin="0px 0px 0px 0px" font="50px --fontFamily-googleGabarito">
+					<Text margin="0px 0px 0px 0px" font="50px --fontFamily-googleGabarito" lg-font="36px --fontFamily-googleGabarito">
 						Due for service?
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="24px --fontFamily-googleGabarito">
+					<Text margin="0px 0px 0px 0px" font="24px --fontFamily-googleGabarito" lg-font="18px --fontFamily-googleGabarito">
 						Call to book an appointment.
 					</Text>
 					<Button
@@ -64,11 +82,19 @@ export default (() => {
 						CONTACT US
 					</Button>
 				</Box>
-				<Box min-width="100px" min-height="100px">
+				<Box
+					min-width="100px"
+					min-height="100px"
+					lg-align-items="center"
+					lg-display="flex"
+					lg-flex-direction="row"
+					lg-justify-content="center"
+				>
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Acer-Swift-3X_SF314-510G_Gold_modelmain.png?v=2024-08-13T12:28:26.410Z"
 						display="block"
 						height="650px"
+						lg-width="80%"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Acer-Swift-3X_SF314-510G_Gold_modelmain.png?v=2024-08-13T12%3A28%3A26.410Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Acer-Swift-3X_SF314-510G_Gold_modelmain.png?v=2024-08-13T12%3A28%3A26.410Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Acer-Swift-3X_SF314-510G_Gold_modelmain.png?v=2024-08-13T12%3A28%3A26.410Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Acer-Swift-3X_SF314-510G_Gold_modelmain.png?v=2024-08-13T12%3A28%3A26.410Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Acer-Swift-3X_SF314-510G_Gold_modelmain.png?v=2024-08-13T12%3A28%3A26.410Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Acer-Swift-3X_SF314-510G_Gold_modelmain.png?v=2024-08-13T12%3A28%3A26.410Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/Acer-Swift-3X_SF314-510G_Gold_modelmain.png?v=2024-08-13T12%3A28%3A26.410Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -105,17 +131,21 @@ export default (() => {
 					padding="0 0 0 200px"
 					text-align="left"
 					color="#ffffff"
+					lg-font="normal 900 38px/1 --fontFamily-googleGabarito"
+					lg-text-align="left"
 				>
 					Quality Service
 				</Text>
-				<Text margin="0px 0px 0px 0px" padding="0 0 0 200px" font="24px --fontFamily-googleGabarito" color="#ffffff">
-					Our production IT company specializes in providing
+				<Text
+					margin="0px 0px 0px 0px"
+					padding="0 0 0 200px"
+					font="24px --fontFamily-googleGabarito"
+					color="#ffffff"
+					lg-font="18px --fontFamily-googleGabarito"
+				>
+					Our production IT company specializes in providing cutting-edge technology solutions to businesses of{" "}
 					<br />
-					cutting-edge technology solutions to businesses of{" "}
-					<br />
-					all sizes. We offer a wide range of services,{" "}
-					<br />
-					including in depth tech repair, network management
+					all sizes. We offer a wide range of services, including in depth tech repair, network management
 					<br />
 					{" "}and IT consulting.
 				</Text>
@@ -126,8 +156,11 @@ export default (() => {
 					display="block"
 					width="100%"
 					height="300px"
-					object-fit="cover"
+					object-fit="contain"
 					padding="0px 200px 0px 200px"
+					lg-min-width="none"
+					lg-min-height="none"
+					lg-padding="0px 0 0px 0"
 					srcSet="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
 					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
@@ -151,6 +184,7 @@ export default (() => {
 				align-self="auto"
 				display="block"
 				border-radius="50px"
+				lg-width="80%"
 			/>
 		</Box>
 		<Box
@@ -174,6 +208,9 @@ export default (() => {
 					border-width="2px"
 					border-style="solid"
 					border-color="rgba(255, 255, 255, 0)"
+					lg-padding="0px 20px 0px 20px"
+					lg-min-width="none"
+					lg-min-height="none"
 					srcSet="https://images.unsplash.com/photo-1584722065451-922e4d176e53?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1584722065451-922e4d176e53?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1584722065451-922e4d176e53?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1584722065451-922e4d176e53?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1584722065451-922e4d176e53?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1584722065451-922e4d176e53?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1584722065451-922e4d176e53?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
 					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
@@ -185,6 +222,7 @@ export default (() => {
 					text-align="left"
 					padding="0px 200px 0px 0px"
 					color="#ffffff"
+					lg-font="900 38px --fontFamily-googleGabarito"
 				>
 					Relaible Support
 				</Text>
@@ -194,16 +232,19 @@ export default (() => {
 					font="24px --fontFamily-googleGabarito"
 					padding="px 200px 0px 0px"
 					color="#ffffff"
+					lg-font="18px --fontFamily-googleGabarito"
 				>
-					At our company, we believe in using the latest technology to help
+					At our company, we believe in using the latest{" "}
 					<br />
-					businesses streamline their operations and achieve their goals. We
+					technology to help businesses streamline their{" "}
 					<br />
-					work closely with our clients to understand their needs and go{" "}
+					operations and achieve their goals. We work closely{" "}
 					<br />
-					above and beyond to develop customized solutions that are{" "}
+					with our clients to understand their needs and go{" "}
 					<br />
-					tailored to their specific requirements.
+					above and beyond to develop customized solutions{" "}
+					<br />
+					that are tailored to their specific requirements.
 				</Text>
 			</Box>
 		</Box>

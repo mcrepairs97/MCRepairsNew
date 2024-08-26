@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"products"} />
 		<Helmet>
 			<title>
-				MCR Products
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66ba53019710450018a21837/images/FBPPTrans.png?v=2024-08-12T18:24:38.389Z"} type={"image/x-icon"} />
@@ -26,6 +26,16 @@ export default (() => {
 			<Override slot="link2" href="/services" />
 			<Override slot="link3" href="/contact-and-about-us" />
 			<Override slot="linkBox" align-self="center" />
+			<Override slot="quarklycommunityKitMobileSidePanelOverride5" lg-color="#ffffff" />
+			<Override slot="quarklycommunityKitMobileSidePanelOverride1" lg-height="130px" lg-background="#888888" />
+			<Override
+				slot="quarklycommunityKitMobileSidePanelOverride"
+				lg-padding="60px 0px 0px 0px"
+				lg-align-items="center"
+				lg-display="flex"
+				lg-flex-direction="row"
+				lg-justify-content="center"
+			/>
 		</Components.NavMenu>
 		<Box
 			min-width="100px"
@@ -91,117 +101,153 @@ export default (() => {
 		</Box>
 		<Box min-width="100px" min-height="100px" />
 		<Box
-			min-height="100px"
-			height="800px"
 			min-width="100px"
-			width="1700px"
+			min-height="100px"
+			align-items="center"
 			display="flex"
-			overflow="visible"
-			flex-direction="column"
-			flex-wrap="no-wrap"
-			align-content="stretch"
-			overflow-y="visible"
-			overflow-x="visible"
-			margin="0px 0px 0px 100px"
+			flex-direction="row"
+			justify-content="center"
 		>
-			<Components.QuarklycommunityKitCarousel
-				slidesProp="3"
+			<Box
+				min-height="100px"
 				height="800px"
-				autoPlayIntervalProp="5000"
-				autoPlay
-				border-radius="50px"
+				min-width="100px"
+				width="80%"
+				display="flex"
+				overflow="visible"
+				flex-direction="column"
+				flex-wrap="no-wrap"
+				align-content="stretch"
+				overflow-y="visible"
+				overflow-x="visible"
+				margin="0px 0px 0px 0"
+				lg-height="400px"
 			>
-				<Override slot="Slide Image" height="800px" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/desktops.png?v=2024-08-15T16:40:07.605Z" />
-				<Override slot="Slide" height="800px" />
-				<Override slot="Slide Content" overflow-x="visible" overflow-y="visible" display="none" />
-				<Override slot="Slide Image 2" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/l-intro-1721314901.jpg?v=2024-08-13T21:11:09.393Z" />
-				<Override slot="Slide Image 1" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/laptops.png?v=2024-08-15T16:39:08.354Z" />
-				<Override slot="Slide Image 3" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/desktops.png?v=2024-08-15T16:40:07.605Z" />
-				<Override slot="Arrows" display="none" />
-				<Override slot="Points" display="none" />
-			</Components.QuarklycommunityKitCarousel>
+				<Components.QuarklycommunityKitCarousel
+					slidesProp="3"
+					height="800px"
+					autoPlayIntervalProp="5000"
+					autoPlay
+					border-radius="50px"
+					lg-height="auto"
+					lg-display="block"
+					lg-position="relative"
+				>
+					<Override
+						slot="Slide Image"
+						height="800px"
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/desktops.png?v=2024-08-15T16:40:07.605Z"
+						lg-padding="0px 0px 0px 50"
+						lg-height="auto"
+					/>
+					<Override slot="Slide" height="800px" />
+					<Override slot="Slide Content" overflow-x="visible" overflow-y="visible" display="none" />
+					<Override slot="Slide Image 2" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/l-intro-1721314901.jpg?v=2024-08-13T21:11:09.393Z" />
+					<Override slot="Slide Image 1" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/laptops.png?v=2024-08-15T16:39:08.354Z" />
+					<Override slot="Slide Image 3" src="https://uploads.quarkly.io/66ba53019710450018a21837/images/desktops.png?v=2024-08-15T16:40:07.605Z" />
+					<Override slot="Arrows" display="none" />
+					<Override slot="Points" display="none" />
+				</Components.QuarklycommunityKitCarousel>
+			</Box>
 		</Box>
 		<Box min-width="100px" min-height="100px" id="preowned" />
-		<Section
-			background="url(https://uploads.quarkly.io/66ba53019710450018a21837/images/prebuildBanner.jpg?v=2024-08-13T12:18:27.236Z) center/cover"
-			padding="140px 0"
-			sm-padding="40px 0"
-			quarkly-title="About-16"
-			height="800px"
-		>
-			<Override
-				slot="SectionContent"
-				align-items="center"
-				justify-content="center"
-				sm-min-width="280px"
-				display="flex"
-				flex-direction="row"
-			/>
-			<LinkBox href="#intel">
-				<Image
-					src="https://uploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11:50:04.467Z"
-					display="block"
-					width="275px"
-					margin="0px 50px 0px 0px"
-					border-radius="50px"
-					border-width="3px"
-					border-color="#ffffff"
-					border-style="solid"
-					srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=3200 3200w"
-					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
-				/>
-			</LinkBox>
-			<Box
-				min-width="100px"
-				min-height="100px"
-				align-items="center"
-				display="grid"
-				flex-direction="row"
-				justify-content="center"
-				align-self="auto"
+		<Box min-width="100px" min-height="100px" overflow="visible">
+			<Section
+				sm-padding="40px 0"
+				quarkly-title="About-16"
+				padding="140px 0"
+				lazy-load
+				background="url(https://uploads.quarkly.io/66ba53019710450018a21837/images/prebuildBanner.jpg?v=2024-08-13T12:18:27.236Z) 0% 0%/100%"
 			>
-				<Text
-					margin="0px 0px 0px 95px"
-					order="0"
-					align-self="center"
-					text-align="center"
-					display="block"
-					color="#ffffff"
-					flex="0 0 auto"
-					font="38px --fontFamily-googleGabarito"
-					border-width="2px"
-					border-color="#ffffff"
-					background="#6f6f6f"
-					width="250px"
-					border-radius="50px"
-					border-style="solid"
+				<Override
+					slot="SectionContent"
+					sm-min-width="280px"
+					display="flex"
+					flex-direction="row"
+					width="60%"
+					box-sizing="border-box"
+					flex-wrap="wrap"
+					padding="50px 0px 0px 0px"
+					align-items="center"
+					justify-content="center"
+					lg-width="auto"
+					lg-padding="0 0px 0px 0px"
+				/>
+				<LinkBox href="#intel">
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11:50:04.467Z"
+						display="block"
+						width="150px"
+						margin="0px 50px 0px 0px"
+						border-radius="50px"
+						border-width="3px"
+						border-color="#ffffff"
+						border-style="solid"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+				</LinkBox>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					align-items="center"
+					display="grid"
+					flex-direction="row"
+					justify-content="center"
+					align-self="auto"
 				>
-					&lt; SORT BY &gt;
-				</Text>
-				<Hr
-					min-height="10px"
-					min-width="100%"
-					margin="0px 0px 0px 0px"
-					width="450px"
-					background="#ffffff"
-					border-radius="50px"
-				/>
-			</Box>
-			<LinkBox href="#amd">
-				<Image
-					src="https://uploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11:49:52.656Z"
-					display="block"
-					width="275px"
-					margin="0px 0px 0px 50px"
-					border-style="solid"
-					border-width="3px"
-					border-color="#ffffff"
-					border-radius="50px"
-					srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=3200 3200w"
-					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
-				/>
-			</LinkBox>
-		</Section>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						align-items="center"
+						display="flex"
+						flex-direction="row"
+						justify-content="center"
+						padding="0px 0 0px 0px"
+					>
+						<Text
+							order="0"
+							align-self="center"
+							text-align="center"
+							display="block"
+							color="#ffffff"
+							flex="0 0 auto"
+							font="24px --fontFamily-googleGabarito"
+							border-width="2px"
+							border-color="#ffffff"
+							background="#6f6f6f"
+							width="250px"
+							border-radius="50px"
+							border-style="solid"
+						>
+							&lt; SORT BY &gt;
+						</Text>
+					</Box>
+					<Hr
+						min-height="10px"
+						min-width="100%"
+						margin="0px 0px 0px 0px"
+						width="100px"
+						background="#ffffff"
+						border-radius="50px"
+					/>
+				</Box>
+				<LinkBox href="#amd">
+					<Image
+						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11:49:52.656Z"
+						display="block"
+						width="150px"
+						margin="0px 0px 0px 50px"
+						border-style="solid"
+						border-width="3px"
+						border-color="#ffffff"
+						border-radius="50px"
+						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+				</LinkBox>
+			</Section>
+		</Box>
 		<Section padding="20px 0 20px 0" sm-padding="40px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Text as="p" font="normal 300 20px/1.5 --fontFamily-googleGabarito" margin="20px 0 20px 0" text-align="center">
@@ -248,7 +294,7 @@ export default (() => {
 			<Image
 				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Untitled-1.jpg?v=2024-08-13T21:25:09.959Z"
 				display="block"
-				width="1700px"
+				width="80%"
 				id="intel"
 				border-radius="25px"
 				border-width="3px"
@@ -315,10 +361,10 @@ export default (() => {
 						align-items="flex-start"
 						justify-content="flex-start"
 					>
-						<Text margin="0px 0px 8px 0px" font="--headline3">
+						<Text margin="0px 0px 8px 0px" font="normal 500 24px/1.2 --fontFamily-sans" lg-font="normal 500 16px/1.2 --fontFamily-sans">
 							11th Gen Core i5 Bit Fenix
 						</Text>
-						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead">
+						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead" lg-font="normal 300 14px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 							R 9 999
 						</Text>
 						<Components.QuarklycommunityKitPopup>
@@ -394,10 +440,10 @@ export default (() => {
 						align-items="flex-start"
 						justify-content="flex-start"
 					>
-						<Text margin="0px 0px 8px 0px" font="--headline3">
+						<Text margin="0px 0px 8px 0px" font="normal 500 24px/1.2 --fontFamily-sans" lg-font="normal 500 16px/1.2 --fontFamily-sans">
 							10th Gen Core i7 DELL
 						</Text>
-						<Text margin="0px 0px 16px 0px" text-align="left" font="--lead">
+						<Text margin="0px 0px 16px 0px" text-align="left" font="--lead" lg-font="normal 300 14px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 							R 6 999
 						</Text>
 						<Components.QuarklycommunityKitPopup>
@@ -506,7 +552,7 @@ export default (() => {
 			<Image
 				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Untitled-2.jpg?v=2024-08-13T21:32:03.090Z"
 				display="block"
-				width="1700px"
+				width="80%"
 				id="intel"
 				border-radius="25px"
 				border-width="3px"

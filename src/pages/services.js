@@ -10,16 +10,27 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"services"} />
 		<Helmet>
 			<title>
-				MCR Services
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/66ba53019710450018a21837/images/FBPPTrans.png?v=2024-08-12T18:24:38.389Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.NavMenu background="#888888" position="static" top={0} height="130px">
-			<Override slot="link1" href="/products" />
-			<Override slot="link2" href="/services" />
-			<Override slot="link3" href="/contact-and-about-us" />
+			<Override slot="link1" href="/products" lg-color="#ffffff" />
+			<Override slot="link2" href="/services" lg-color="#ffffff" />
+			<Override slot="link3" href="/contact-and-about-us" lg-color="#ffffff" />
 			<Override slot="linkBox" align-self="center" />
+			<Override slot="link" lg-color="#ffffff" />
+			<Override
+				slot="quarklycommunityKitMobileSidePanelOverride"
+				lg-padding="60px 0px 0px 0px"
+				lg-align-items="center"
+				lg-display="flex"
+				lg-flex-direction="row"
+				lg-justify-content="center"
+			/>
+			<Override slot="quarklycommunityKitMobileSidePanelOverride1" lg-background="#888888" lg-height="130px" />
+			<Override slot="quarklycommunityKitMobileSidePanelOverride5" lg-color="#ffffff" />
 		</Components.NavMenu>
 		<Box
 			min-width="100px"
@@ -149,17 +160,26 @@ export default (() => {
 		<Box
 			min-width="100px"
 			min-height="100px"
+			align-items="center"
 			display="flex"
 			flex-direction="row"
-			width="800px"
-			box-sizing="border-box"
-			align-items="center"
 			justify-content="center"
-			margin="30px 0px 0px 550px"
+			padding="50px 0px 0px 0px"
 		>
-			<Text margin="0px 0px 0px 0px" text-align="center" font="24px --fontFamily-googleGabarito">
-				Our custom IT solutions are tailored technology systems and services designed specifically to meet the unique needs and requirements of a business or organization. Unlike off-the-shelf software, these solutions are developed or adapted to address particular operational challenges, integrate seamlessly with existing processes, and enhance efficiency. Custom IT solutions can include bespoke software applications, specialized hardware configurations, or unique configurations of existing technology, and they aim to provide a more precise fit and competitive advantage for the organization.
-			</Text>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="flex"
+				flex-direction="row"
+				width="800px"
+				box-sizing="border-box"
+				align-items="center"
+				justify-content="center"
+			>
+				<Text margin="0px 0px 0px 0px" text-align="center" font="24px --fontFamily-googleGabarito" lg-font="20px --fontFamily-googleGabarito">
+					Our custom IT solutions are tailored technology systems and services designed specifically to meet the unique needs and requirements of a business or organization. Unlike off-the-shelf software, these solutions are developed or adapted to address particular operational challenges, integrate seamlessly with existing processes, and enhance efficiency. Custom IT solutions can include bespoke software applications, specialized hardware configurations, or unique configurations of existing technology, and they aim to provide a more precise fit and competitive advantage for the organization.
+				</Text>
+			</Box>
 		</Box>
 		<Box
 			min-width="100px"
@@ -223,6 +243,7 @@ export default (() => {
 					flex-direction="column"
 					align-items="center"
 					border-radius={0}
+					lg-height="300px"
 				>
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09:32:08.259Z"
@@ -233,7 +254,7 @@ export default (() => {
 						border-width="5px"
 						border-style="solid"
 						width="500px"
-						height="400px"
+						height="350px"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -245,6 +266,7 @@ export default (() => {
 					flex-direction="column"
 					align-items="center"
 					border-width="5px"
+					lg-height="300px"
 				>
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09:32:13.654Z"
@@ -255,7 +277,7 @@ export default (() => {
 						border-width="5px"
 						border-style="solid"
 						width="500px"
-						height="400px"
+						height="350px"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -266,6 +288,7 @@ export default (() => {
 					display="flex"
 					flex-direction="column"
 					align-items="center"
+					lg-height="300px"
 				>
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09:32:13.646Z"
@@ -276,7 +299,7 @@ export default (() => {
 						border-width="5px"
 						border-radius="250px"
 						width="500px"
-						height="400px"
+						height="350px"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -925,147 +948,149 @@ export default (() => {
 				NETWORKING
 			</Text>
 		</Box>
-		<Box
-			min-width="100px"
-			min-height="100px"
-			id="networking"
-			align-items="center"
-			display="flex"
-			flex-direction="row"
-			justify-content="center"
-		>
-			<Text margin="0px 0px 0px 0px" font="24px --fontFamily-googleGabarito" text-align="center">
-				<br />
-				<br />
-				The networking services we offer encompass a range of essential functions that support{" "}
-				<br />
-				communication, management, and security in a networked environment. These services include:
-				<br />
-				<br />
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					Communication
-				</Strong>
-				: Email, web, and file transfer services.
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					Configuration
-				</Strong>
-				: DHCP for dynamic IP assignment and manual IP management.
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					Security
-				</Strong>
-				: Firewalls, VPNs, and intrusion detection/prevention.
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					Management
-				</Strong>
-				: SNMP for monitoring and network management tools.
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					Remote Access
-				</Strong>
-				: Telnet/SSH for remote control and access.
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					Name Resolution
-				</Strong>
-				: DNS for translating domain names to IP addresses.
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					Load Balancing
-				</Strong>
-				: Distributing traffic to optimize performance.
-				<br />
-				<br />
-				<Strong
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-					user-select="auto"
-					pointer-events="auto"
-				>
-					Backup & Recovery
-				</Strong>
-				: Systems for data backup and disaster recovery.
-				<br />
-				<br />
-				These services ensure efficient, secure, and reliable network operations.{"\n\n"}
-			</Text>
+		<Box min-width="100px" min-height="100px">
+			<Box
+				min-width="100px"
+				min-height="100px"
+				id="networking"
+				align-items="center"
+				display="flex"
+				flex-direction="row"
+				justify-content="center"
+			>
+				<Text margin="0px 0px 0px 0px" font="24px --fontFamily-googleGabarito" text-align="center" lg-font="20px --fontFamily-googleGabarito">
+					<br />
+					<br />
+					The networking services we offer encompass a range of essential functions that support{" "}
+					<br />
+					communication, management, and security in a networked environment. These services include:
+					<br />
+					<br />
+					<br />
+					<br />
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Communication
+					</Strong>
+					: Email, web, and file transfer services.
+					<br />
+					<br />
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Configuration
+					</Strong>
+					: DHCP for dynamic IP assignment and manual IP management.
+					<br />
+					<br />
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Security
+					</Strong>
+					: Firewalls, VPNs, and intrusion detection/prevention.
+					<br />
+					<br />
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Management
+					</Strong>
+					: SNMP for monitoring and network management tools.
+					<br />
+					<br />
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Remote Access
+					</Strong>
+					: Telnet/SSH for remote control and access.
+					<br />
+					<br />
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Name Resolution
+					</Strong>
+					: DNS for translating domain names to IP addresses.
+					<br />
+					<br />
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Load Balancing
+					</Strong>
+					: Distributing traffic to optimize performance.
+					<br />
+					<br />
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						Backup & Recovery
+					</Strong>
+					: Systems for data backup and disaster recovery.
+					<br />
+					<br />
+					These services ensure efficient, secure, and reliable network operations.{"\n\n"}
+				</Text>
+			</Box>
 		</Box>
 		<Box min-width="100px" min-height="100px" id="networking" />
 		<Section padding="0 0 30px 0" md-padding="60px 0 30px 0" quarkly-title="Footer-15" background="#292929">
