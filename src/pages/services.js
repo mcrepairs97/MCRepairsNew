@@ -35,17 +35,14 @@ export default (() => {
 		<Box
 			min-width="100px"
 			min-height="100px"
-			align-items="center"
-			display="flex"
-			flex-direction="row"
-			justify-content="center"
-			overflow-x="visible"
-			position="sticky"
-			right={0}
-			left={0}
-			background="#bebebe"
-			top={0}
-			z-index="1"
+			sm-align-items="center"
+			sm-display="flex"
+			sm-flex-direction="row"
+			sm-justify-content="center"
+			sm-background="#bebebe"
+			sm-padding="0px 15px 0px 0px"
+			sm-height="60px"
+			sm-min-height="60px"
 		>
 			<Box
 				min-width="100px"
@@ -54,76 +51,99 @@ export default (() => {
 				display="flex"
 				flex-direction="row"
 				justify-content="center"
-				hover-background="rgba(255, 255, 255, 0)"
+				overflow-x="visible"
+				position="sticky"
+				right={0}
+				left={0}
+				background="#bebebe"
+				top={0}
+				z-index="1"
+				sm-width="80%"
+				sm-height="60px"
+				sm-min-height="60px"
 			>
-				<Link
-					href="#repairs"
-					color="#ffffff"
-					font="bold 24px --fontFamily-googleGabarito"
-					background="green"
-					padding="10px 10px 10px 10px"
-					border-width="2px"
-					border-style="solid"
-					border-radius="15px 10px 20px 5px"
-					text-decoration-line="initial"
-					active-background="#888888"
-					active-color="#ffffff"
-					border-color="#000000"
+				<Box
+					min-width="100px"
+					min-height="100px"
+					align-items="center"
+					display="flex"
+					flex-direction="row"
+					justify-content="center"
+					hover-background="rgba(255, 255, 255, 0)"
 				>
-					REPAIRS
-				</Link>
-			</Box>
-			<Box min-width="100px" min-height="100px" />
-			<Box
-				min-width="100px"
-				min-height="100px"
-				align-items="center"
-				display="flex"
-				flex-direction="row"
-				justify-content="center"
-			>
-				<Link
-					href="#services"
-					color="#ffffff"
-					font="bold 24px --fontFamily-googleGabarito"
-					padding="10px 10px 10px 10px"
-					border-style="solid"
-					border-width="2px"
-					background="green"
-					border-radius="15px 10px 20px 5px"
-					text-decoration-line="initial"
-					active-background="#888888"
-					active-color="#ffffff"
-					border-color="#000000"
+					<Link
+						href="#repairs"
+						color="#ffffff"
+						font="bold 24px --fontFamily-googleGabarito"
+						background="green"
+						padding="10px 10px 10px 10px"
+						border-width="2px"
+						border-style="solid"
+						border-radius="15px 10px 20px 5px"
+						text-decoration-line="initial"
+						active-background="#888888"
+						active-color="#ffffff"
+						border-color="#000000"
+						sm-width="80px"
+						sm-font="bold 16px --fontFamily-googleGabarito"
+					>
+						REPAIRS
+					</Link>
+				</Box>
+				<Box min-width="100px" min-height="100px" />
+				<Box
+					min-width="100px"
+					min-height="100px"
+					align-items="center"
+					display="flex"
+					flex-direction="row"
+					justify-content="center"
 				>
-					SERVICES
-				</Link>
-			</Box>
-			<Box min-width="100px" min-height="100px" />
-			<Box
-				min-width="100px"
-				min-height="100px"
-				align-items="center"
-				display="flex"
-				flex-direction="row"
-				justify-content="center"
-			>
-				<Link
-					href="#networking"
-					color="#ffffff"
-					font="bold 24px --fontFamily-googleGabarito"
-					background="green"
-					padding="10px 10px 10px 10px"
-					border-width="2px"
-					border-style="solid"
-					border-radius="15px 10px 20px 5px"
-					text-decoration-line="initial"
-					active-background="#888888"
-					active-color="#ffffff"
-					border-color="#000000"
+					<Link
+						href="#services"
+						color="#ffffff"
+						font="bold 24px --fontFamily-googleGabarito"
+						padding="10px 10px 10px 10px"
+						border-style="solid"
+						border-width="2px"
+						background="green"
+						border-radius="15px 10px 20px 5px"
+						text-decoration-line="initial"
+						active-background="#888888"
+						active-color="#ffffff"
+						border-color="#000000"
+						sm-font="bold 16px --fontFamily-googleGabarito"
+					>
+						SERVICES
+					</Link>
+				</Box>
+				<Box min-width="100px" min-height="100px" />
+				<Box
+					min-width="100px"
+					min-height="100px"
+					align-items="center"
+					display="flex"
+					flex-direction="row"
+					justify-content="center"
 				>
-					NETWORKING
-				</Link>
+					<Link
+						href="#networking"
+						color="#ffffff"
+						font="bold 24px --fontFamily-googleGabarito"
+						background="green"
+						padding="10px 10px 10px 10px"
+						border-width="2px"
+						border-style="solid"
+						border-radius="15px 10px 20px 5px"
+						text-decoration-line="initial"
+						active-background="#888888"
+						active-color="#ffffff"
+						border-color="#000000"
+						sm-font="bold 16px --fontFamily-googleGabarito"
+					>
+						NETWORKING
+					</Link>
+				</Box>
 			</Box>
 		</Box>
 		<Box
@@ -144,6 +164,7 @@ export default (() => {
 			flex-direction="row"
 			justify-content="center"
 			padding="50px 0px 0px 0px"
+			sm-padding="50px 0px 0px 70px"
 		>
 			<Image
 				src="https://uploads.quarkly.io/66ba53019710450018a21837/images/green-light-bulb-energy-icon-hi.png?v=2024-08-19T08:23:03.563Z"
@@ -177,7 +198,13 @@ export default (() => {
 				justify-content="center"
 				md-width="80%"
 			>
-				<Text margin="0px 0px 0px 0px" text-align="center" font="24px --fontFamily-googleGabarito" lg-font="20px --fontFamily-googleGabarito">
+				<Text
+					margin="0px 0px 0px 0px"
+					text-align="center"
+					font="24px --fontFamily-googleGabarito"
+					lg-font="20px --fontFamily-googleGabarito"
+					sm-font="18px --fontFamily-googleGabarito"
+				>
 					Our custom IT solutions are tailored technology systems and services designed specifically to meet the unique needs and requirements of a business or organization. Unlike off-the-shelf software, these solutions are developed or adapted to address particular operational challenges, integrate seamlessly with existing processes, and enhance efficiency. Custom IT solutions can include bespoke software applications, specialized hardware configurations, or unique configurations of existing technology, and they aim to provide a more precise fit and competitive advantage for the organization.
 				</Text>
 			</Box>
@@ -219,7 +246,7 @@ export default (() => {
 				<br />
 				REPAIRS & SOLUTIONS
 			</Text>
-			<Text margin="5px 0px 50px 0px" font="24px --fontFamily-googleGabarito">
+			<Text margin="5px 0px 50px 0px" font="24px --fontFamily-googleGabarito" sm-font="20px --fontFamily-googleGabarito">
 				We offer repairs to laptop modules shown below
 				<br />
 				not limiting ourselves or clients to what is possible
@@ -251,6 +278,7 @@ export default (() => {
 					align-items="center"
 					border-radius={0}
 					lg-height="300px"
+					sm-height="200px"
 				>
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09:32:08.259Z"
@@ -264,6 +292,8 @@ export default (() => {
 						height="350px"
 						md-width="200px"
 						md-height="200px"
+						sm-width="150px"
+						sm-height="150px"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -276,6 +306,7 @@ export default (() => {
 					align-items="center"
 					border-width="5px"
 					lg-height="300px"
+					sm-height="200px"
 				>
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09:32:13.654Z"
@@ -289,6 +320,8 @@ export default (() => {
 						height="350px"
 						md-height="200px"
 						md-width="200px"
+						sm-height="150px"
+						sm-width="150px"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -300,6 +333,7 @@ export default (() => {
 					flex-direction="column"
 					align-items="center"
 					lg-height="300px"
+					sm-height="200px"
 				>
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09:32:13.646Z"
@@ -313,6 +347,8 @@ export default (() => {
 						height="350px"
 						md-height="200px"
 						md-width="200px"
+						sm-height="150px"
+						sm-width="150px"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>

@@ -50,6 +50,8 @@ export default (() => {
 			position="sticky"
 			top={0}
 			z-index="1"
+			sm-height="60px"
+			sm-min-height="60px"
 		>
 			<Box
 				min-width="100px"
@@ -70,6 +72,7 @@ export default (() => {
 					border-width="2px"
 					border-style="solid"
 					border-radius="15px 10px 20px 5px"
+					sm-font="bold 16px --fontFamily-googleGabarito"
 				>
 					UPGRADE KITS
 				</Link>
@@ -94,6 +97,7 @@ export default (() => {
 					border-radius="15px 10px 20px 5px"
 					padding="10px 10px 10px 10px"
 					border-color="#000000"
+					sm-font="bold 16px --fontFamily-googleGabarito"
 				>
 					PREOWNED SYSTEMS
 				</Link>
@@ -123,6 +127,7 @@ export default (() => {
 				margin="0px 0px 0px 0"
 				lg-height="400px"
 				md-height="300px"
+				sm-height="250px"
 			>
 				<Components.QuarklycommunityKitCarousel
 					slidesProp="3"
@@ -273,10 +278,14 @@ export default (() => {
 				margin="20px 0 20px 0"
 				text-align="center"
 				md-font="normal 300 16px/1.5 --fontFamily-googleGabarito"
+				sm-margin="0 0 10px 0"
+				sm-font="normal 300 14px/1.5 --fontFamily-googleGabarito"
 			>
 				Find what best suits your needs and budget,
 				<br />
-				select between AMD or Intel which are both know for great performance and efficiency
+				select between AMD or Intel which are both know for
+				<br />
+				{" "}great performance and efficiency
 				<br />
 				what to know more about pre-builds? click the button below for more info.
 			</Text>
@@ -326,7 +335,7 @@ export default (() => {
 				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Box>
-		<Section padding="80px 0 80px 0">
+		<Section padding="80px 0 80px 0" sm-padding="45px 0 80px 0">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="flex"
@@ -604,7 +613,7 @@ export default (() => {
 				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Box>
-		<Section padding="80px 0 20px 0">
+		<Section padding="80px 0 20px 0" sm-padding="45px 0 20px 0">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="flex"
