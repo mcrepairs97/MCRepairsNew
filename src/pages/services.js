@@ -40,7 +40,6 @@ export default (() => {
 			sm-flex-direction="row"
 			sm-justify-content="center"
 			sm-background="#bebebe"
-			sm-padding="0px 15px 0px 0px"
 			sm-height="60px"
 			sm-min-height="60px"
 		>
@@ -61,6 +60,7 @@ export default (() => {
 				sm-width="80%"
 				sm-height="60px"
 				sm-min-height="60px"
+				sm-padding="0px 15px 0px 0px"
 			>
 				<Box
 					min-width="100px"
@@ -70,6 +70,7 @@ export default (() => {
 					flex-direction="row"
 					justify-content="center"
 					hover-background="rgba(255, 255, 255, 0)"
+					sm-margin="0px 5px 0px 0px"
 				>
 					<Link
 						href="#repairs"
@@ -90,7 +91,6 @@ export default (() => {
 						REPAIRS
 					</Link>
 				</Box>
-				<Box min-width="100px" min-height="100px" sm-width="30px" sm-min-width="30px" />
 				<Box
 					min-width="100px"
 					min-height="100px"
