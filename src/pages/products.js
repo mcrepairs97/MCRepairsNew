@@ -99,7 +99,7 @@ export default (() => {
 				</Link>
 			</Box>
 		</Box>
-		<Box min-width="100px" min-height="100px" />
+		<Box min-width="100px" min-height="100px" md-min-height="none" md-height="50px" />
 		<Box
 			min-width="100px"
 			min-height="100px"
@@ -122,6 +122,7 @@ export default (() => {
 				overflow-x="visible"
 				margin="0px 0px 0px 0"
 				lg-height="400px"
+				md-height="300px"
 			>
 				<Components.QuarklycommunityKitCarousel
 					slidesProp="3"
@@ -158,6 +159,7 @@ export default (() => {
 				padding="140px 0"
 				lazy-load
 				background="url(https://uploads.quarkly.io/66ba53019710450018a21837/images/prebuildBanner.jpg?v=2024-08-13T12:18:27.236Z) 0% 0%/100%"
+				md-padding="100px 0 110px 0"
 			>
 				<Override
 					slot="SectionContent"
@@ -172,6 +174,11 @@ export default (() => {
 					justify-content="center"
 					lg-width="auto"
 					lg-padding="0 0px 0px 0px"
+					md-padding="0 0px 0 0px"
+					md-height="auto"
+					md-min-height="none"
+					md-flex-direction="row"
+					md-justify-content="center"
 				/>
 				<LinkBox href="#intel">
 					<Image
@@ -183,6 +190,8 @@ export default (() => {
 						border-width="3px"
 						border-color="#ffffff"
 						border-style="solid"
+						md-width="100px"
+						md-margin="0px 0 0px 0px"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/IntelCPU.png?v=2024-08-13T11%3A50%3A04.467Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -195,6 +204,7 @@ export default (() => {
 					flex-direction="row"
 					justify-content="center"
 					align-self="auto"
+					md-width="200px"
 				>
 					<Box
 						min-width="100px"
@@ -204,6 +214,7 @@ export default (() => {
 						flex-direction="row"
 						justify-content="center"
 						padding="0px 0 0px 0px"
+						md-width="150px"
 					>
 						<Text
 							order="0"
@@ -219,6 +230,9 @@ export default (() => {
 							width="250px"
 							border-radius="50px"
 							border-style="solid"
+							md-width="100px"
+							md-font="16px --fontFamily-googleGabarito"
+							md-margin="0 0px 0 0px"
 						>
 							&lt; SORT BY &gt;
 						</Text>
@@ -230,6 +244,7 @@ export default (() => {
 						width="100px"
 						background="#ffffff"
 						border-radius="50px"
+						md-padding="0px 0px 0 0px"
 					/>
 				</Box>
 				<LinkBox href="#amd">
@@ -242,6 +257,8 @@ export default (() => {
 						border-width="3px"
 						border-color="#ffffff"
 						border-radius="50px"
+						md-width="100px"
+						md-margin="0px 0px 0px 0"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/amdCPU.jpg?v=2024-08-13T11%3A49%3A52.656Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -250,7 +267,13 @@ export default (() => {
 		</Box>
 		<Section padding="20px 0 20px 0" sm-padding="40px 0">
 			<Override slot="SectionContent" align-items="center" />
-			<Text as="p" font="normal 300 20px/1.5 --fontFamily-googleGabarito" margin="20px 0 20px 0" text-align="center">
+			<Text
+				as="p"
+				font="normal 300 20px/1.5 --fontFamily-googleGabarito"
+				margin="20px 0 20px 0"
+				text-align="center"
+				md-font="normal 300 16px/1.5 --fontFamily-googleGabarito"
+			>
 				Find what best suits your needs and budget,
 				<br />
 				select between AMD or Intel which are both know for great performance and efficiency
@@ -360,11 +383,19 @@ export default (() => {
 						padding="0px 30px 0px 30px"
 						align-items="flex-start"
 						justify-content="flex-start"
+						md-width="100%"
+						md-height="115px"
 					>
-						<Text margin="0px 0px 8px 0px" font="normal 500 24px/1.2 --fontFamily-sans" lg-font="normal 500 16px/1.2 --fontFamily-sans">
+						<Text margin="0px 0px 8px 0px" font="normal 500 24px/1.2 --fontFamily-sans" lg-font="normal 500 16px/1.2 --fontFamily-sans" md-font="normal 700 18px/1.2 --fontFamily-sans">
 							11th Gen Core i5 Bit Fenix
 						</Text>
-						<Text margin="0px 0px 16px 0px" text-align="center" font="--lead" lg-font="normal 300 14px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
+						<Text
+							margin="0px 0px 16px 0px"
+							text-align="center"
+							font="--lead"
+							lg-font="normal 300 14px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+							md-font="normal 300 16px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+						>
 							R 9 999
 						</Text>
 						<Components.QuarklycommunityKitPopup>
@@ -439,11 +470,23 @@ export default (() => {
 						padding="0px 30px 0px 30px"
 						align-items="flex-start"
 						justify-content="flex-start"
+						md-justify-content="center"
+						md-width="100%"
+						md-flex-direction="column"
+						md-display="flex"
+						md-flex-wrap="no-wrap"
+						md-height="115px"
 					>
-						<Text margin="0px 0px 8px 0px" font="normal 500 24px/1.2 --fontFamily-sans" lg-font="normal 500 16px/1.2 --fontFamily-sans">
+						<Text margin="0px 0px 8px 0px" font="normal 500 24px/1.2 --fontFamily-sans" lg-font="normal 500 16px/1.2 --fontFamily-sans" md-font="normal 700 18px/1.2 --fontFamily-sans">
 							10th Gen Core i7 DELL
 						</Text>
-						<Text margin="0px 0px 16px 0px" text-align="left" font="--lead" lg-font="normal 300 14px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
+						<Text
+							margin="0px 0px 16px 0px"
+							text-align="left"
+							font="--lead"
+							lg-font="normal 300 14px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+							md-font="normal 300 16px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+						>
 							R 6 999
 						</Text>
 						<Components.QuarklycommunityKitPopup>

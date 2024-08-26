@@ -42,6 +42,7 @@ export default (() => {
 			lg-display="flex"
 			lg-flex-direction="row"
 			lg-justify-content="center"
+			md-height="400px"
 		>
 			<Box
 				min-width="100px"
@@ -61,10 +62,10 @@ export default (() => {
 					text-align="center"
 					lg-margin="0px 0px 0px 50px"
 				>
-					<Text margin="0px 0px 0px 0px" font="50px --fontFamily-googleGabarito" lg-font="36px --fontFamily-googleGabarito">
+					<Text margin="0px 0px 0px 0px" font="50px --fontFamily-googleGabarito" lg-font="36px --fontFamily-googleGabarito" md-font="28px --fontFamily-googleGabarito">
 						Due for service?
 					</Text>
-					<Text margin="0px 0px 0px 0px" font="24px --fontFamily-googleGabarito" lg-font="18px --fontFamily-googleGabarito">
+					<Text margin="0px 0px 0px 0px" font="24px --fontFamily-googleGabarito" lg-font="18px --fontFamily-googleGabarito" md-font="16px --fontFamily-googleGabarito">
 						Call to book an appointment.
 					</Text>
 					<Button
@@ -89,6 +90,7 @@ export default (() => {
 					lg-display="flex"
 					lg-flex-direction="row"
 					lg-justify-content="center"
+					md-width="500px"
 				>
 					<Image
 						src="https://uploads.quarkly.io/66ba53019710450018a21837/images/Acer-Swift-3X_SF314-510G_Gold_modelmain.png?v=2024-08-13T12:28:26.410Z"
@@ -110,6 +112,7 @@ export default (() => {
 				font="bold 70px --fontFamily-googleGabarito"
 				color="#ffffff"
 				text-decoration-line="underline"
+				md-font="bold 42px --fontFamily-googleGabarito"
 			>
 				Reason to choose our service
 			</Text>
@@ -123,6 +126,7 @@ export default (() => {
 			justify-content="center"
 			background="#000000"
 			padding="125px 0px 125px 0px"
+			md-padding="50px 0px 30px 0px"
 		>
 			<Box min-width="100px" min-height="100px" width="50%">
 				<Text
@@ -133,6 +137,9 @@ export default (() => {
 					color="#ffffff"
 					lg-font="normal 900 38px/1 --fontFamily-googleGabarito"
 					lg-text-align="left"
+					md-font="normal 900 40px/1 --fontFamily-googleGabarito"
+					md-text-align="left"
+					md-padding="0 0 0 20px"
 				>
 					Quality Service
 				</Text>
@@ -142,15 +149,13 @@ export default (() => {
 					font="24px --fontFamily-googleGabarito"
 					color="#ffffff"
 					lg-font="18px --fontFamily-googleGabarito"
+					md-text-align="left"
+					md-padding="0 0 0 20px"
 				>
-					Our production IT company specializes in providing cutting-edge technology solutions to businesses of{" "}
-					<br />
-					all sizes. We offer a wide range of services, including in depth tech repair, network management
-					<br />
-					{" "}and IT consulting.
+					Our production IT company specializes in providing cutting-edge technology solutions to businesses of all sizes. We offer a wide range of services, including in depth tech repair, network management and IT consulting.
 				</Text>
 			</Box>
-			<Box min-width="100px" min-height="100px" width="50% ">
+			<Box min-width="100px" min-height="100px" width="50% " md-padding="0px 20px 0px 20px">
 				<Image
 					src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
 					display="block"
@@ -196,6 +201,7 @@ export default (() => {
 			flex-direction="row"
 			background="#000000"
 			padding="125px 0px 125px 0px"
+			md-padding="30px 0px 50px 0px"
 		>
 			<Box min-width="100px" min-height="100px" width="50%">
 				<Image
@@ -223,6 +229,7 @@ export default (() => {
 					padding="0px 200px 0px 0px"
 					color="#ffffff"
 					lg-font="900 38px --fontFamily-googleGabarito"
+					md-padding="0px 20px 0px 0px"
 				>
 					Relaible Support
 				</Text>
@@ -238,13 +245,7 @@ export default (() => {
 					<br />
 					technology to help businesses streamline their{" "}
 					<br />
-					operations and achieve their goals. We work closely{" "}
-					<br />
-					with our clients to understand their needs and go{" "}
-					<br />
-					above and beyond to develop customized solutions{" "}
-					<br />
-					that are tailored to their specific requirements.
+					operations and achieve their goals. We work closely with our clients to understand their needs and go above and beyond to develop customized solutions that are tailored to their specific requirements.
 				</Text>
 			</Box>
 		</Box>

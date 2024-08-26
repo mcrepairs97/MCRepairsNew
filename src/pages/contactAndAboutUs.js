@@ -58,8 +58,15 @@ export default (() => {
 				width="80%"
 				border-radius="50px"
 				lg-height="500px"
+				md-height="400px"
 			>
-				<Override slot="SectionContent" align-items="center" justify-content="center" sm-min-width="280px" />
+				<Override
+					slot="SectionContent"
+					align-items="center"
+					justify-content="center"
+					sm-min-width="280px"
+					md-height="auto"
+				/>
 				<Box
 					padding="50px 80px 50px 50px"
 					color="--dark"
@@ -71,8 +78,15 @@ export default (() => {
 					sm-padding="50px 24px 50px 24px"
 					border-radius="25px"
 					lg-height="300px"
+					md-padding="20px 20px 0 20px"
 				>
-					<Text margin="0 0 16px 0" as="h2" font="--headline2" lg-font="normal 900 38px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
+					<Text
+						margin="0 0 16px 0"
+						as="h2"
+						font="--headline2"
+						lg-font="normal 900 38px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+						md-margin="0 0 0 0"
+					>
 						About us
 					</Text>
 					<Hr
@@ -82,8 +96,9 @@ export default (() => {
 						border-width="3px 0 0 0"
 						max-width="50px"
 						width="100%"
+						md-margin="10px 0px 0px 0px"
 					/>
-					<Text font="--base" text-align="center">
+					<Text font="--base" text-align="center" md-font="normal 300 14px/1.5 --fontFamily-googleGabarito">
 						As an IT company we look at making our environment easily accessible and a convenient place for everyone looking to be part of the technological side of life.
 						<br />
 						We don't want to be seen as competitors but rather as a helping hand in a sense of being able to meet our clients specific needs to the point, doing more than what your "normal" IT shop would do, exceeding expectations of not just others but of ourselves too.

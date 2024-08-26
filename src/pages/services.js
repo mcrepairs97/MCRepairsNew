@@ -175,6 +175,7 @@ export default (() => {
 				box-sizing="border-box"
 				align-items="center"
 				justify-content="center"
+				md-width="80%"
 			>
 				<Text margin="0px 0px 0px 0px" text-align="center" font="24px --fontFamily-googleGabarito" lg-font="20px --fontFamily-googleGabarito">
 					Our custom IT solutions are tailored technology systems and services designed specifically to meet the unique needs and requirements of a business or organization. Unlike off-the-shelf software, these solutions are developed or adapted to address particular operational challenges, integrate seamlessly with existing processes, and enhance efficiency. Custom IT solutions can include bespoke software applications, specialized hardware configurations, or unique configurations of existing technology, and they aim to provide a more precise fit and competitive advantage for the organization.
@@ -224,8 +225,16 @@ export default (() => {
 				not limiting ourselves or clients to what is possible
 			</Text>
 		</Box>
-		<Section padding="40px 0 40px 0" quarkly-title="Product-1">
-			<Override slot="SectionContent" align-items="center" />
+		<Section padding="40px 0 40px 0" quarkly-title="Product-1" md-display="flex" md-padding="0 0 0 0">
+			<Override
+				slot="SectionContent"
+				align-items="center"
+				md-flex="0 1 auto"
+				md-align-self="auto"
+				md-display="flex"
+				md-align-items="center"
+				md-justify-content="center"
+			/>
 			<Box
 				min-width="100px"
 				min-height="100px"
@@ -233,8 +242,6 @@ export default (() => {
 				grid-template-columns="repeat(3, 1fr)"
 				grid-template-rows="auto"
 				grid-gap="0 35px"
-				md-grid-template-columns="1fr"
-				md-grid-gap="40px 0"
 			>
 				<Box
 					min-width="100px"
@@ -255,6 +262,8 @@ export default (() => {
 						border-style="solid"
 						width="500px"
 						height="350px"
+						md-width="200px"
+						md-height="200px"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/42T0790.jpg?v=2024-08-13T09%3A32%3A08.259Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -278,6 +287,8 @@ export default (() => {
 						border-style="solid"
 						width="500px"
 						height="350px"
+						md-height="200px"
+						md-width="200px"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/61d335zIyJL.jpg?v=2024-08-13T09%3A32%3A13.654Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -300,6 +311,8 @@ export default (() => {
 						border-radius="250px"
 						width="500px"
 						height="350px"
+						md-height="200px"
+						md-width="200px"
 						srcSet="https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66ba53019710450018a21837/images/083FHX.jpg?v=2024-08-13T09%3A32%3A13.646Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
@@ -948,7 +961,14 @@ export default (() => {
 				NETWORKING
 			</Text>
 		</Box>
-		<Box min-width="100px" min-height="100px">
+		<Box
+			min-width="100px"
+			min-height="100px"
+			md-align-items="center"
+			md-display="flex"
+			md-flex-direction="row"
+			md-justify-content="center"
+		>
 			<Box
 				min-width="100px"
 				min-height="100px"
@@ -957,6 +977,7 @@ export default (() => {
 				display="flex"
 				flex-direction="row"
 				justify-content="center"
+				md-width="80%"
 			>
 				<Text margin="0px 0px 0px 0px" font="24px --fontFamily-googleGabarito" text-align="center" lg-font="20px --fontFamily-googleGabarito">
 					<br />
