@@ -90,7 +90,7 @@ export default (() => {
 						REPAIRS
 					</Link>
 				</Box>
-				<Box min-width="100px" min-height="100px" />
+				<Box min-width="100px" min-height="100px" sm-width="30px" sm-min-width="30px" />
 				<Box
 					min-width="100px"
 					min-height="100px"
@@ -117,7 +117,7 @@ export default (() => {
 						SERVICES
 					</Link>
 				</Box>
-				<Box min-width="100px" min-height="100px" />
+				<Box min-width="100px" min-height="100px" sm-min-width="30px" />
 				<Box
 					min-width="100px"
 					min-height="100px"
