@@ -90,6 +90,7 @@ export default (() => {
 					>
 						REPAIRS
 					</Link>
+					<Box min-width="100px" min-height="100px" />
 				</Box>
 				<Box
 					min-width="100px"
